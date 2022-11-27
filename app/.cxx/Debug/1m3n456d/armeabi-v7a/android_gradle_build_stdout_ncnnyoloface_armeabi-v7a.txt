@@ -1,0 +1,2 @@
+ninja: Entering directory `E:\AndroidStudioProgects\face_kaoqing\app\.cxx\Debug\1m3n456d\armeabi-v7a'
+ninja: no work to do.

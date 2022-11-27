@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="click"
+            type="com.view.activity.StartActivity.CLickClass" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/bg_null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.view.activity.StartActivity">
+
+        <androidx.cardview.widget.CardView
+
+            android:onClick="@{click::studentBtn}"
+            android:foreground="?attr/selectableItemBackground"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="15dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/cardView"
+            android:layout_width="210dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="我是学生"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:onClick="@{click::teacherBtn}"
+            android:foreground="?attr/selectableItemBackground"
+            android:backgroundTint="#039BE5"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cardView2"
+            android:layout_width="210dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="我是老师"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

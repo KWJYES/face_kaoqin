@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="svm"
+            type="com.viewmodel.svm.activity.student.StudentMainSVM" />
+        <variable
+            name="click"
+            type="com.view.activity.student.StudentMainActivity.ClickClass" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/bg_null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.view.activity.student.StudentMainActivity">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/mainViewPager2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/bottomNavigation"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            app:itemIconTint="@drawable/student_main_bottom_navigation"
+            app:itemTextColor="@drawable/student_main_bottom_navigation"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:menu="@menu/student_bottom_navigation" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

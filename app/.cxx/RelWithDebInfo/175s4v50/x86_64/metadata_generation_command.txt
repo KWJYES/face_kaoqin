@@ -1,0 +1,23 @@
+                    Executable : D:\AndroidSDK\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HE:\AndroidStudioProgects\face_kaoqing\app\src\main\jni
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=28
+-DANDROID_PLATFORM=android-28
+-DANDROID_ABI=x86_64
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DANDROID_NDK=D:\AndroidSDK\ndk\21.4.7075529
+-DCMAKE_ANDROID_NDK=D:\AndroidSDK\ndk\21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=D:\AndroidSDK\ndk\21.4.7075529\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\AndroidSDK\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\AndroidStudioProgects\face_kaoqing\app\build\intermediates\cxx\RelWithDebInfo\175s4v50\obj\x86_64
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=E:\AndroidStudioProgects\face_kaoqing\app\build\intermediates\cxx\RelWithDebInfo\175s4v50\obj\x86_64
+-DCMAKE_BUILD_TYPE=RelWithDebInfo
+-BE:\AndroidStudioProgects\face_kaoqing\app\.cxx\RelWithDebInfo\175s4v50\x86_64
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

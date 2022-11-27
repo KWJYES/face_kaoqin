@@ -1,0 +1,44 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 28 min SDK version: armeabi-v7a",
+    "file_": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\jni\\CMakeLists.txt",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -393412422
+  },
+  {
+    "level_": 0,
+    "message_": "JSON \u0027J:\\AndroidStudioProgects\\face_kaoqing\\app\\.cxx\\Debug\\3k4u2o6c\\armeabi-v7a\\android_gradle_build.json\u0027 was up-to-date",
+    "file_": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\jni\\CMakeLists.txt",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1347497562
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\jni\\CMakeLists.txt",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -153400210
+  }
+]

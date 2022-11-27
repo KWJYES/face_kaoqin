@@ -1,0 +1,10 @@
+com.tencent.ncnnyoloface
+array cpugpu_array
+array model_array
+id buttonSwitchCamera
+id cameraview
+id returnbase64
+id spinnerCPUGPU
+id spinnerModel
+layout main
+string app_name

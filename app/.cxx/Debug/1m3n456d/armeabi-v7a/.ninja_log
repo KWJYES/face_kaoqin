@@ -1,0 +1,5 @@
+# ninja log v5
+5	767	690614895	CMakeFiles/ncnnyoloface.dir/ndkcamera.cpp.o	bfec58ce336747df
+1	822	690614895	CMakeFiles/ncnnyoloface.dir/yolofacencnn.cpp.o	3acb00a848f14ca6
+8	1034	690614895	CMakeFiles/ncnnyoloface.dir/yoloface.cpp.o	ead691474c356179
+1034	1786	690614896	E:/AndroidStudioProgects/face_kaoqing/app/build/intermediates/cxx/Debug/1m3n456d/obj/armeabi-v7a/libncnnyoloface.so	97c88f7289b97e92

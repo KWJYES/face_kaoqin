@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "E:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "E:\\AndroidStudioProgects\\face_kaoqing\\app\\.cxx\\RelWithDebInfo\\175s4v50\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "E:\\AndroidStudioProgects\\face_kaoqing\\app\\.cxx\\RelWithDebInfo\\175s4v50\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ncnnyoloface-RelWithDebInfo-x86_64": {
+      "buildCommandComponents": [
+        "D:\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\AndroidStudioProgects\\face_kaoqing\\app\\.cxx\\RelWithDebInfo\\175s4v50\\x86_64",
+        "ncnnyoloface"
+      ],
+      "buildType": "release",
+      "abi": "x86_64",
+      "artifactName": "ncnnyoloface",
+      "output": "E:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\175s4v50\\obj\\x86_64\\libncnnyoloface.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

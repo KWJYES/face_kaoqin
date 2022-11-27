@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tencent.ncnnyoloface"
+    android:versionCode="1"
+    android:versionName="1.1">
+
+    <uses-feature android:name="android.hardware.camera" /> <!-- 相机权限 -->
+    <!-- 写入SD卡的权限：如果你希望保存相机拍照后的照片 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 读取SD卡的权限:打开相册选取图片所必须的权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera2.full" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="大创APP"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.view.activity.student.StudentAttendanceRecordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.view.activity.student.StudentCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.view.activity.teacher.TeacherCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.view.activity.student.StudentMainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.view.activity.teacher.TeacherMainActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.view.activity.teacher.TeacherLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.view.activity.teacher.TeacherRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.view.activity.student.StudentRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.view.activity.student.StudentLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.view.activity.StartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SelectActivity" />
+        <activity android:name=".DeleteInfoActivity" />
+        <activity android:name=".SearchDataActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".AttendanceActivity"
+            android:label="无感知人脸考勤"
+            android:screenOrientation="fullSensor" />
+    </application>
+
+</manifest>

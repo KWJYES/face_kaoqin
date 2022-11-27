@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "E:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "E:\\AndroidStudioProgects\\face_kaoqing\\app\\.cxx\\Debug\\1m3n456d\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "E:\\AndroidStudioProgects\\face_kaoqing\\app\\.cxx\\Debug\\1m3n456d\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ncnnyoloface-Debug-x86": {
+      "artifactName": "ncnnyoloface",
+      "buildCommandComponents": [
+        "D:\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "E:\\AndroidStudioProgects\\face_kaoqing\\app\\.cxx\\Debug\\1m3n456d\\x86",
+        "ncnnyoloface"
+      ],
+      "abi": "x86",
+      "output": "E:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\cxx\\Debug\\1m3n456d\\obj\\x86\\libncnnyoloface.so",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="click"
+            type="com.view.activity.teacher.TeacherRegisterActivity.ClickClass" />
+        <variable
+            name="svm"
+            type="com.viewmodel.svm.activity.teacher.TeacherRegisterSVM" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/bg_null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context="com.view.activity.teacher.TeacherRegisterActivity">
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注\n  册"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:padding="5dp"
+            android:background="@drawable/bg_ll"
+            android:layout_marginTop="220dp"
+            android:id="@+id/linearLayout0"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="工号:" />
+
+            <EditText
+                android:textSize="15sp"
+                android:hint="由大小写字母和数字组成"
+                android:maxLines="1"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/login_register_et"
+                android:text="@={svm.student_id}"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_ll"
+            android:id="@+id/linearLayout2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="姓名:" />
+
+            <EditText
+                android:textSize="15sp"
+                android:hint="您的真实姓名"
+                android:maxLines="1"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/login_register_et"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="@={svm.username}" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_ll"
+            android:id="@+id/linearLayout"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="邮箱:"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:textSize="15sp"
+                android:hint="填写正确的邮箱地址"
+                android:maxLines="1"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/login_register_et"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="@={svm.email}" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_ll"
+            android:id="@+id/linearLayout3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <TextView
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="密码:" />
+
+            <EditText
+                android:textSize="15sp"
+                android:hint="请设置密码"
+                android:maxLines="1"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/login_register_et"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="@={svm.password}"
+                android:inputType="textPassword"/>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_ll"
+            android:id="@+id/linearLayout4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+            <TextView
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="确认密码:" />
+
+            <EditText
+                android:textSize="15sp"
+                android:hint="确认密码"
+                android:maxLines="1"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/login_register_et"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="@={svm.password_confirm}"
+                android:inputType="textPassword"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginEnd="3dp"
+            android:id="@+id/linearLayout5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_ll"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            app:layout_constraintEnd_toStartOf="@+id/button2"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout4"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="验证码:"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:textSize="15sp"
+                android:hint="验证码"
+                android:maxLines="1"
+                android:layout_marginStart="3dp"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/login_register_et"
+                android:text="@={svm.captcha}" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="@drawable/get_captcha_btn"
+            android:onClick="@{click::getCaptcha}"
+            android:text="获取验证码"
+            app:layout_constraintBottom_toBottomOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout4"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout5" />
+
+        <Button
+            android:background="@drawable/login_btn"
+            android:id="@+id/button"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:textSize="15sp"
+            android:layout_height="45dp"
+            android:onClick="@{click::register}"
+            android:text="注册"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

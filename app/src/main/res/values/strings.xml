@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">yoloface_demo</string>
+    <string-array name="model_array">
+        <item>face</item>
+    </string-array>
+    <string-array name="cpugpu_array">
+        <item>GPU</item>
+        <item>CPU</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

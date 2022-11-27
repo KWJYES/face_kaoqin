@@ -1,0 +1,7 @@
+Executable : D:\AndroidSDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+E:\AndroidStudioProgects\face_kaoqing\app\.cxx\Debug\1m3n456d\armeabi-v7a
+ncnnyoloface
+jvmArgs : 
+

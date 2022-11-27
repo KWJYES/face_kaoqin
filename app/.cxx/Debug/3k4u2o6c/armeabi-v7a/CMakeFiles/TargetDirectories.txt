@@ -1,0 +1,3 @@
+J:/AndroidStudioProgects/face_kaoqing/app/.cxx/Debug/3k4u2o6c/armeabi-v7a/CMakeFiles/ncnnyoloface.dir
+J:/AndroidStudioProgects/face_kaoqing/app/.cxx/Debug/3k4u2o6c/armeabi-v7a/CMakeFiles/edit_cache.dir
+J:/AndroidStudioProgects/face_kaoqing/app/.cxx/Debug/3k4u2o6c/armeabi-v7a/CMakeFiles/rebuild_cache.dir
