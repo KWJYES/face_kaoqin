@@ -14,18 +14,19 @@ import com.tencent.ncnnyoloface.R;
 import com.tencent.ncnnyoloface.databinding.FragmentMineBinding;
 import com.utils.ApplicationConfig;
 import com.view.activity.student.StudentAttendanceRecordActivity;
+import com.viewmodel.rvm.fragment.student.StudentMineRVM;
 import com.viewmodel.svm.fragment.student.StudentMineSVM;
 
 public class StudentMineFragment extends BaseFragment {
 
     FragmentMineBinding binding;
     StudentMineSVM svm;
-    StudentMineSVM rvm;
+    StudentMineRVM rvm;
 
     @Override
     protected View initFragment(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         svm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(StudentMineSVM.class);
-        rvm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(StudentMineSVM.class);
+        rvm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(StudentMineRVM.class);
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_mine, container, false);
         binding.setSvm(svm);
         binding.setClick(new ClickClass());

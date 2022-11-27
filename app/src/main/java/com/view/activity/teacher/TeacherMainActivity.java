@@ -19,6 +19,7 @@ import com.tencent.ncnnyoloface.databinding.ActivityTeacherMainBinding;
 import com.utils.ApplicationConfig;
 import com.view.dialog.teacher.CreateCourseDialog;
 import com.view.fragment.teacher.TeacherHomeFragment;
+import com.view.fragment.teacher.TeacherMineFragment;
 import com.viewmodel.rvm.activity.teacher.TeacherMainRVM;
 import com.viewmodel.svm.activity.teacher.TeacherMainSVM;
 
@@ -69,7 +70,7 @@ public class TeacherMainActivity extends BaseActivity {
     private void initViewPager2() {
         List<Fragment> fragmentLis = new ArrayList<>();
         fragmentLis.add(new TeacherHomeFragment());
-        //fragmentLis.add(new MineFragment());
+        fragmentLis.add(new TeacherMineFragment());
         MainViewPager2Adapter adapter = new MainViewPager2Adapter(this, fragmentLis);
         binding.mainViewPager2.setAdapter(adapter);
         //去除尽头阴影
@@ -102,7 +103,7 @@ public class TeacherMainActivity extends BaseActivity {
                     binding.mainViewPager2.setCurrentItem(0);
                     return true;
                 case R.id.main_my:
-                    binding.mainViewPager2.setCurrentItem(2);
+                    binding.mainViewPager2.setCurrentItem(1);
                     return true;
             }
             return false;
