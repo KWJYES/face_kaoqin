@@ -56,7 +56,8 @@ public class TeacherLoginActivity extends BaseActivity {
          * @param view
          */
         public void login(View view){
-            if(Objects.equals(svm.email.getValue(), "")|| Objects.equals(svm.password.getValue(), "")) return;
+            if (svm.email.getValue() == null || svm.email.getValue().equals("") || svm.password.getValue() == null || svm.password.getValue().equals(""))
+                return;
             if(!InputChecker.checkEmail(Objects.requireNonNull(svm.email.getValue()))){
                 Toast.makeText(TeacherLoginActivity.this, "邮箱格式错误", Toast.LENGTH_SHORT).show();
                 return;

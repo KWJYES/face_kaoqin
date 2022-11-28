@@ -38,12 +38,12 @@ public class StudentLoginActivity extends BaseActivity {
     @Override
     protected void observerDataStateUpdateAction() {
         rvm.loginStatus.observe(this, aBoolean -> {
-            if(aBoolean){
+            if (aBoolean) {
                 Toast.makeText(StudentLoginActivity.this, "登陆成功！", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(StudentLoginActivity.this,StudentMainActivity.class));
+                startActivity(new Intent(StudentLoginActivity.this, StudentMainActivity.class));
                 finish();
                 ActivityCollector.finishActivity(StartActivity.class);
-            }else {
+            } else {
                 Toast.makeText(StudentLoginActivity.this, "登陆失败！", Toast.LENGTH_SHORT).show();
             }
         });
@@ -52,23 +52,26 @@ public class StudentLoginActivity extends BaseActivity {
     public class ClickClass {
         /**
          * 进行登陆
+         *
          * @param view
          */
-        public void login(View view){
-            if(Objects.equals(svm.email.getValue(), "")|| Objects.equals(svm.password.getValue(), "")) return;
-            if(!InputChecker.checkEmail(Objects.requireNonNull(svm.email.getValue()))){
+        public void login(View view) {
+            if (svm.email.getValue() == null || svm.email.getValue().equals("") || svm.password.getValue() == null || svm.password.getValue().equals(""))
+                return;
+            if (!InputChecker.checkEmail(Objects.requireNonNull(svm.email.getValue()))) {
                 Toast.makeText(StudentLoginActivity.this, "邮箱格式错误", Toast.LENGTH_SHORT).show();
                 return;
             }
-            rvm.login(svm.email.getValue(),svm.password.getValue());
+            rvm.login(svm.email.getValue(), svm.password.getValue());
         }
 
         /**
          * 进入注册页面
+         *
          * @param view
          */
-        public void register(View view){
-            startActivity(new Intent(StudentLoginActivity.this,StudentRegisterActivity.class));
+        public void register(View view) {
+            startActivity(new Intent(StudentLoginActivity.this, StudentRegisterActivity.class));
         }
     }
 }

@@ -119,7 +119,7 @@ public class StudentRegisterActivity extends BaseActivity {
          * @param view
          */
         public void getCaptcha(View view){
-            if(Objects.equals(svm.email.getValue(), "")){
+            if(svm.email.getValue()==null||svm.email.getValue().equals("")){
                 Toast.makeText(StudentRegisterActivity.this, "请先填写邮箱", Toast.LENGTH_SHORT).show();
                 return;
             }
@@ -135,15 +135,24 @@ public class StudentRegisterActivity extends BaseActivity {
          * @param view
          */
         public void register(View view){
+            if(svm.email.getValue()==null||svm.email.getValue().equals("")){
+                Toast.makeText(StudentRegisterActivity.this, "请先填写邮箱", Toast.LENGTH_SHORT).show();
+                return;
+            }
             if(!InputChecker.checkEmail(Objects.requireNonNull(svm.email.getValue()))){
                 Toast.makeText(StudentRegisterActivity.this, "邮箱格式错误", Toast.LENGTH_SHORT).show();
                 return;
             }
-            if (Objects.equals(svm.username.getValue(), "") || Objects.equals(svm.student_id.getValue(), "")) {
+            if (svm.username.getValue()==null||svm.username.getValue().equals("") ||svm.student_id.getValue()==null|| svm.student_id.getValue().equals("")) {
                 Toast.makeText(StudentRegisterActivity.this, "昵称和姓名不能为空", Toast.LENGTH_SHORT).show();
             } else if (!InputChecker.checkStudentID(Objects.requireNonNull(svm.student_id.getValue()))) {
                 Toast.makeText(StudentRegisterActivity.this, "昵称非法", Toast.LENGTH_SHORT).show();
-            } else {
+            }else if(svm.password.getValue()==null||svm.password.getValue().equals("")||svm.password_confirm.getValue()==null||svm.password_confirm.getValue().equals("")){
+                Toast.makeText(StudentRegisterActivity.this, "密码填写未完成", Toast.LENGTH_SHORT).show();
+            }else if(svm.captcha.getValue()==null||svm.captcha.getValue().equals("")){
+                Toast.makeText(StudentRegisterActivity.this, "未填写验证码", Toast.LENGTH_SHORT).show();
+            }
+            else {
                 new AlertDialog.Builder(StudentRegisterActivity.this)
                         .setTitle("系统提示")
                         .setMessage("请选择上传方式")

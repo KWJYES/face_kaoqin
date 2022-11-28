@@ -63,7 +63,7 @@ public class TeacherRegisterActivity extends BaseActivity {
          * @param view
          */
         public void getCaptcha(View view) {
-            if (Objects.equals(svm.email.getValue(), "")) {
+            if (svm.email.getValue()==null||svm.email.getValue().equals("")) {
                 Toast.makeText(TeacherRegisterActivity.this, "请先填写邮箱", Toast.LENGTH_SHORT).show();
                 return;
             }
@@ -80,12 +80,12 @@ public class TeacherRegisterActivity extends BaseActivity {
          * @param view
          */
         public void register(View view) {
-            if (Objects.equals(svm.email.getValue(), "") ||
-                    Objects.equals(svm.captcha.getValue(), "") ||
-                    Objects.equals(svm.username.getValue(), "") ||
-                    Objects.equals(svm.student_id.getValue(), "") ||
-                    Objects.equals(svm.password.getValue(), "") ||
-                    Objects.equals(svm.password_confirm.getValue(), "")) {
+            if (svm.email.getValue()==null||svm.email.getValue().equals("") ||
+                    svm.captcha.getValue()==null||svm.captcha.getValue().equals("") ||
+                    svm.username.getValue()==null||svm.username.getValue().equals("") ||
+                    svm.student_id.getValue()==null||svm.student_id.getValue().equals("")||
+                    svm.password.getValue()==null||svm.password.getValue().equals("") ||
+                    svm.password_confirm.getValue()==null||svm.password_confirm.getValue().equals("")) {
                 Toast.makeText(TeacherRegisterActivity.this, "请先完善您的注册信息", Toast.LENGTH_SHORT).show();
                 return;
             }
