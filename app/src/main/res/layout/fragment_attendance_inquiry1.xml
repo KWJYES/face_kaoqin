@@ -1,0 +1,35 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="click"
+            type="com.view.fragment.teacher.AttendanceInquiry1Fragment.ClickClass" />
+
+        <variable
+            name="svm"
+            type="com.viewmodel.svm.fragment.teacher.AttendanceInquiry1SVM" />
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_null"
+        tools:context="com.view.fragment.teacher.AttendanceInquiry1Fragment">
+        <com.scwang.smart.refresh.layout.SmartRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.scwang.smart.refresh.header.ClassicsHeader
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_course"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+
+    </FrameLayout>
+</layout>

@@ -1,21 +1,18 @@
 package com.view.activity.teacher;
 
-import androidx.databinding.DataBindingUtil;
-import androidx.lifecycle.ViewModelProvider;
-
 import android.content.Intent;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.databinding.DataBindingUtil;
+import androidx.lifecycle.ViewModelProvider;
 
 import com.base.BaseActivity;
 import com.tencent.ncnnyoloface.R;
 import com.tencent.ncnnyoloface.databinding.ActivityTeacherLoginBinding;
 import com.utils.ActivityCollector;
-import com.utils.ApplicationConfig;
 import com.utils.InputChecker;
 import com.view.activity.StartActivity;
-import com.view.activity.student.StudentLoginActivity;
-import com.view.activity.student.StudentRegisterActivity;
 import com.viewmodel.rvm.activity.teacher.TeacherLoginRVM;
 import com.viewmodel.svm.activity.teacher.TeacherLoginSVM;
 
@@ -31,7 +28,6 @@ public class TeacherLoginActivity extends BaseActivity {
     @Override
     protected void initActivity() {
         setTransparentStatusBar(true);
-        ApplicationConfig.loginContext=this;
         svm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(TeacherLoginSVM.class);
         rvm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(TeacherLoginRVM.class);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_teacher_login);

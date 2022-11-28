@@ -2,7 +2,6 @@ package com.response.db;
 
 import static android.content.Context.MODE_PRIVATE;
 
-import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
@@ -31,7 +30,6 @@ public class SharedPreferencesManager implements ISharedPreferencesRequest{
         if(editor==null){
             synchronized (SharedPreferences.Editor.class){
                 if(null==editor){
-                    assert ApplicationConfig.getContext() != null;
                     editor=ApplicationConfig.getContext().getSharedPreferences("data",MODE_PRIVATE).edit();
                 }
             }
@@ -44,7 +42,6 @@ public class SharedPreferencesManager implements ISharedPreferencesRequest{
         if(pref==null){
             synchronized (SharedPreferences.class){
                 if(null==pref){
-                    assert ApplicationConfig.getContext() != null;
                     pref= ApplicationConfig.getContext().getSharedPreferences("data",MODE_PRIVATE);
                 }
             }

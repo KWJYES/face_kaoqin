@@ -16,8 +16,6 @@ import com.adapter.viewpager2.MainViewPager2Adapter;
 import com.base.BaseActivity;
 import com.tencent.ncnnyoloface.R;
 import com.tencent.ncnnyoloface.databinding.ActivityStudentMainBinding;
-import com.utils.ApplicationConfig;
-import com.view.dialog.student.JoinInCourseDialog;
 import com.view.fragment.student.StudentHomeFragment;
 import com.view.fragment.student.StudentMineFragment;
 import com.viewmodel.rvm.activity.student.StudentMainRVM;
@@ -30,12 +28,10 @@ public class StudentMainActivity extends BaseActivity {
     ActivityStudentMainBinding binding;
     StudentMainSVM svm;
     StudentMainRVM rvm;
-    private JoinInCourseDialog dialog;
 
     @Override
     protected void initActivity() {
         setTransparentStatusBar(true);
-        ApplicationConfig.mainContext = this;
         svm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(StudentMainSVM.class);
         rvm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(StudentMainRVM.class);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_student_main);

@@ -11,7 +11,6 @@ import com.base.BaseActivity;
 import com.tencent.ncnnyoloface.R;
 import com.tencent.ncnnyoloface.databinding.ActivityStudentLoginBinding;
 import com.utils.ActivityCollector;
-import com.utils.ApplicationConfig;
 import com.utils.InputChecker;
 import com.view.activity.StartActivity;
 import com.viewmodel.rvm.activity.student.StudentLoginRVM;
@@ -28,7 +27,6 @@ public class StudentLoginActivity extends BaseActivity {
     @Override
     protected void initActivity() {
         setTransparentStatusBar(true);
-        ApplicationConfig.loginContext=this;
         svm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(StudentLoginSVM.class);
         rvm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(StudentLoginRVM.class);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_student_login);

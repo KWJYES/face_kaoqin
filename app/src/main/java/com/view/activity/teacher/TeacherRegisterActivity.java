@@ -1,23 +1,17 @@
 package com.view.activity.teacher;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Toast;
+
 import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Toast;
-
 import com.base.BaseActivity;
 import com.tencent.ncnnyoloface.R;
 import com.tencent.ncnnyoloface.databinding.ActivityTeacherRegisterBinding;
-import com.utils.ApplicationConfig;
 import com.utils.InputChecker;
-import com.view.activity.student.StudentRegisterActivity;
-import com.viewmodel.rvm.activity.student.StudentRegisterRVM;
 import com.viewmodel.rvm.activity.teacher.TeacherRegisterRVM;
-import com.viewmodel.svm.activity.student.StudentRegisterSVM;
 import com.viewmodel.svm.activity.teacher.TeacherRegisterSVM;
 
 import java.util.Objects;
@@ -31,7 +25,6 @@ public class TeacherRegisterActivity extends BaseActivity {
     @Override
     protected void initActivity() {
         setTransparentStatusBar(true);
-        ApplicationConfig.registerContext = this;
         svm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(TeacherRegisterSVM.class);
         rvm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(TeacherRegisterRVM.class);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_teacher_register);

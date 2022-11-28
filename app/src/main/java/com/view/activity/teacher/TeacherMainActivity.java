@@ -16,7 +16,6 @@ import com.adapter.viewpager2.MainViewPager2Adapter;
 import com.base.BaseActivity;
 import com.tencent.ncnnyoloface.R;
 import com.tencent.ncnnyoloface.databinding.ActivityTeacherMainBinding;
-import com.utils.ApplicationConfig;
 import com.view.dialog.teacher.CreateCourseDialog;
 import com.view.fragment.teacher.TeacherHomeFragment;
 import com.view.fragment.teacher.TeacherMineFragment;
@@ -36,7 +35,6 @@ public class TeacherMainActivity extends BaseActivity {
     @Override
     protected void initActivity() {
         setTransparentStatusBar(true);
-        ApplicationConfig.mainContext = this;
         svm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(TeacherMainSVM.class);
         rvm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(TeacherMainRVM.class);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_teacher_main);

@@ -24,6 +24,10 @@
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_teacher_register.xml"
     },
     {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_attendance_inquiry2.xml.flat",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\fragment_attendance_inquiry2.xml"
+    },
+    {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_refresh2.xml.flat",
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\drawable\\ic_refresh2.xml"
     },
@@ -48,12 +52,12 @@
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\drawable\\ic_r.xml"
     },
     {
-        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_attendance.xml.flat",
-        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_attendance.xml"
-    },
-    {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_student_course.xml.flat",
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_student_course.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_attendance.xml.flat",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_attendance.xml"
     },
     {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_student_register.xml.flat",
@@ -72,8 +76,20 @@
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\dialog_create_course.xml"
     },
     {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_attendance_inquiry.xml.flat",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_attendance_inquiry.xml"
+    },
+    {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_teacher_main.xml.flat",
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_teacher_main.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_kaoqin_chaxun.xml.flat",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\drawable\\ic_kaoqin_chaxun.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_attendance_inquiry1.xml.flat",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\fragment_attendance_inquiry1.xml"
     },
     {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_main_my.xml.flat",
@@ -90,6 +106,10 @@
     {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_join_in_course1.xml.flat",
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\drawable\\ic_join_in_course1.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_teacher_mine.xml.flat",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\fragment_teacher_mine.xml"
     },
     {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\drawable_attendance_btn.xml.flat",
@@ -146,6 +166,10 @@
     {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_join_in_course0.xml.flat",
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\drawable\\ic_join_in_course0.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\layout_item_attendance_inquire_course_bean__message.xml.flat",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\item_attendance_inquire_course_bean__message.xml"
     },
     {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_l.xml.flat",

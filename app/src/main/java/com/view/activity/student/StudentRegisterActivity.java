@@ -1,18 +1,11 @@
 package com.view.activity.student;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
-
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.database.Cursor;
-
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
-import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Looper;
@@ -23,19 +16,19 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import androidx.databinding.DataBindingUtil;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProvider;
+
 import com.baidu.ai.aip.utils.Base64Util;
 import com.baidu.ai.aip.utils.GsonUtils;
 import com.baidu.ai.aip.utils.HttpUtil;
-import com.baidu.ai.aip.utils.MyHelper;
 import com.baidu.ai.aip.utils.add_result_bean;
 import com.base.BaseActivity;
 import com.google.gson.Gson;
 import com.tencent.ncnnyoloface.R;
-import com.tencent.ncnnyoloface.RegisterActivity;
 import com.tencent.ncnnyoloface.databinding.ActivityStudentRegisterBinding;
-import com.utils.ApplicationConfig;
 import com.utils.InputChecker;
-import com.view.activity.teacher.TeacherRegisterActivity;
 import com.viewmodel.rvm.activity.student.StudentRegisterRVM;
 import com.viewmodel.svm.activity.student.StudentRegisterSVM;
 
@@ -49,7 +42,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -70,7 +62,6 @@ public class StudentRegisterActivity extends BaseActivity {
     @Override
     protected void initActivity() {
         setTransparentStatusBar(true);
-        ApplicationConfig.registerContext=this;
         svm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(StudentRegisterSVM.class);
         rvm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(StudentRegisterRVM.class);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_student_register);

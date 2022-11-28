@@ -3,6 +3,10 @@ com/view/activity/StartActivity.java
  com.view.activity.StartActivity$CLickClass
 com/viewmodel/rvm/activity/student/StudentCourseRVM.java
  com.viewmodel.rvm.activity.student.StudentCourseRVM
+com/adapter/teacher/CourseInquireAttendanceAdapter.java
+ com.adapter.teacher.CourseInquireAttendanceAdapter
+ com.adapter.teacher.CourseInquireAttendanceAdapter$ClickClass
+ com.adapter.teacher.CourseInquireAttendanceAdapter$ViewHolder
 com/response/retrofit_api/resposebody_bean/InquireCourseJoinBean.java
  com.response.retrofit_api.resposebody_bean.InquireCourseJoinBean
  com.response.retrofit_api.resposebody_bean.InquireCourseJoinBean$Message
@@ -13,6 +17,8 @@ com/viewmodel/svm/activity/teacher/TeacherRegisterSVM.java
  com.viewmodel.svm.activity.teacher.TeacherRegisterSVM
 com/response/retrofit_api/ITeacherService.java
  com.response.retrofit_api.ITeacherService
+com/tencent/ncnnyoloface/databinding/FragmentAttendanceInquiry1Binding.java
+ com.tencent.ncnnyoloface.databinding.FragmentAttendanceInquiry1Binding
 com/viewmodel/rvm/activity/teacher/TeacherLoginRVM.java
  com.viewmodel.rvm.activity.teacher.TeacherLoginRVM
 com/tencent/ncnnyoloface/AttendanceActivity.java
@@ -63,6 +69,8 @@ com/tencent/ncnnyoloface/databinding/ActivityTeacherCourseBinding.java
 com/view/fragment/teacher/TeacherHomeFragment.java
  com.view.fragment.teacher.TeacherHomeFragment
  com.view.fragment.teacher.TeacherHomeFragment$ClickClass
+com/viewmodel/svm/fragment/teacher/TeacherMineSVM.java
+ com.viewmodel.svm.fragment.teacher.TeacherMineSVM
 com/baidu/ai/aip/utils/AuthService.java
  com.baidu.ai.aip.utils.AuthService
 com/baidu/ai/aip/utils/MyHelper.java
@@ -74,6 +82,8 @@ com/viewmodel/svm/activity/teacher/TeacherMainSVM.java
 com/view/fragment/student/StudentHomeFragment.java
  com.view.fragment.student.StudentHomeFragment
  com.view.fragment.student.StudentHomeFragment$ClickClass
+com/tencent/ncnnyoloface/databinding/ItemAttendanceInquireCourseBeanMessageBinding.java
+ com.tencent.ncnnyoloface.databinding.ItemAttendanceInquireCourseBeanMessageBinding
 com/tencent/ncnnyoloface/databinding/FragmentMineBinding.java
  com.tencent.ncnnyoloface.databinding.FragmentMineBinding
 com/response/network/ITeacherNetworkRequest.java
@@ -98,8 +108,12 @@ com/viewmodel/svm/activity/student/StudentRegisterSVM.java
  com.viewmodel.svm.activity.student.StudentRegisterSVM
 com/viewmodel/svm/activity/student/StudentMainSVM.java
  com.viewmodel.svm.activity.student.StudentMainSVM
+com/tencent/ncnnyoloface/databinding/FragmentTeacherMineBinding.java
+ com.tencent.ncnnyoloface.databinding.FragmentTeacherMineBinding
 com/base/BaseFragment.java
  com.base.BaseFragment
+com/view/fragment/teacher/AttendanceInquiry2Fragment.java
+ com.view.fragment.teacher.AttendanceInquiry2Fragment
 com/callback/CourseItemOnClickListener.java
  com.callback.CourseItemOnClickListener
 com/viewmodel/rvm/activity/teacher/TeacherMainRVM.java
@@ -119,6 +133,8 @@ com/customview/StatusBarHeightView.java
  com.customview.StatusBarHeightView
 com/viewmodel/svm/activity/teacher/TeacherLoginSVM.java
  com.viewmodel.svm.activity.teacher.TeacherLoginSVM
+com/viewmodel/svm/fragment/teacher/AttendanceInquiry1SVM.java
+ com.viewmodel.svm.fragment.teacher.AttendanceInquiry1SVM
 com/tencent/ncnnyoloface/databinding/ActivityStudentAttendanceRecordBinding.java
  com.tencent.ncnnyoloface.databinding.ActivityStudentAttendanceRecordBinding
 com/response/retrofit_api/resposebody_bean/InquireCourseBean.java
@@ -144,13 +160,17 @@ com/view/activity/teacher/TeacherMainActivity.java
 com/view/dialog/teacher/StartAttendanceDialog.java
  com.view.dialog.teacher.StartAttendanceDialog
  com.view.dialog.teacher.StartAttendanceDialog$ClickClass
-com/view/activity/student/StudentLoginActivity.java
- com.view.activity.student.StudentLoginActivity
- com.view.activity.student.StudentLoginActivity$ClickClass
+com/tencent/ncnnyoloface/databinding/ActivityTeacherMainBinding.java
+ com.tencent.ncnnyoloface.databinding.ActivityTeacherMainBinding
+com/view/activity/teacher/AttendanceInquiryActivity.java
+ com.view.activity.teacher.AttendanceInquiryActivity
+ com.view.activity.teacher.AttendanceInquiryActivity$ClickClass
 com/tencent/ncnnyoloface/databinding/ActivityStudentRegisterBinding.java
  com.tencent.ncnnyoloface.databinding.ActivityStudentRegisterBinding
 com/tencent/ncnnyoloface/DataBindingTriggerClass.java
  com.tencent.ncnnyoloface.DataBindingTriggerClass
+com/tencent/ncnnyoloface/databinding/ActivityAttendanceInquiryBinding.java
+ com.tencent.ncnnyoloface.databinding.ActivityAttendanceInquiryBinding
 com/view/dialog/teacher/CreateCourseDialog.java
  com.view.dialog.teacher.CreateCourseDialog
  com.view.dialog.teacher.CreateCourseDialog$ClickClass
@@ -197,8 +217,8 @@ com/tencent/ncnnyoloface/databinding/ItemInquireCourseBeanMessageBinding.java
  com.tencent.ncnnyoloface.databinding.ItemInquireCourseBeanMessageBinding
 com/utils/JWTUtil.java
  com.utils.JWTUtil
-com/interceptor/ReadTokenInterceptor.java
- com.interceptor.ReadTokenInterceptor
+com/baidu/ai/aip/utils/ThreadReturn.java
+ com.baidu.ai.aip.utils.ThreadReturn
 com/response/retrofit_api/requstbody_bean/AttendanceBean.java
  com.response.retrofit_api.requstbody_bean.AttendanceBean
 com/view/fragment/student/StudentMineFragment.java
@@ -212,22 +232,8 @@ com/view/activity/student/StudentCourseActivity.java
  com.view.activity.student.StudentCourseActivity
  com.view.activity.student.StudentCourseActivity$1
  com.view.activity.student.StudentCourseActivity$ClickClass
-com/response/network/HttpRequestManager.java
- com.response.network.HttpRequestManager
- com.response.network.HttpRequestManager$1
- com.response.network.HttpRequestManager$10
- com.response.network.HttpRequestManager$11
- com.response.network.HttpRequestManager$12
- com.response.network.HttpRequestManager$13
- com.response.network.HttpRequestManager$14
- com.response.network.HttpRequestManager$2
- com.response.network.HttpRequestManager$3
- com.response.network.HttpRequestManager$4
- com.response.network.HttpRequestManager$5
- com.response.network.HttpRequestManager$6
- com.response.network.HttpRequestManager$7
- com.response.network.HttpRequestManager$8
- com.response.network.HttpRequestManager$9
+com/response/retrofit_api/IStudentService.java
+ com.response.retrofit_api.IStudentService
 com/baidu/ai/aip/utils/add_result_bean.java
  com.baidu.ai.aip.utils.add_result_bean
  com.baidu.ai.aip.utils.add_result_bean$ResultBean
@@ -255,8 +261,9 @@ com/callback/CreateCourseOnClickListener.java
  com.callback.CreateCourseOnClickListener
 com/utils/ActivityCollector.java
  com.utils.ActivityCollector
-com/response/db/SharedPreferencesManager.java
- com.response.db.SharedPreferencesManager
+com/view/fragment/teacher/TeacherMineFragment.java
+ com.view.fragment.teacher.TeacherMineFragment
+ com.view.fragment.teacher.TeacherMineFragment$ClickClass
 com/viewmodel/rvm/fragment/teacher/TeacherHomeRVM.java
  com.viewmodel.rvm.fragment.teacher.TeacherHomeRVM
 com/viewmodel/rvm/activity/teacher/TeacherCourseRVM.java
@@ -268,25 +275,49 @@ com/view/activity/teacher/TeacherCourseActivity.java
  com.view.activity.teacher.TeacherCourseActivity$1
  com.view.activity.teacher.TeacherCourseActivity$ClickClass
  com.view.activity.teacher.TeacherCourseActivity$ClickClass$1
-com/tencent/ncnnyoloface/databinding/ActivityStudentMainBinding.java
- com.tencent.ncnnyoloface.databinding.ActivityStudentMainBinding
+com/view/fragment/teacher/AttendanceInquiry1Fragment.java
+ com.view.fragment.teacher.AttendanceInquiry1Fragment
+ com.view.fragment.teacher.AttendanceInquiry1Fragment$ClickClass
+com/response/retrofit_api/IPublicService.java
+ com.response.retrofit_api.IPublicService
+com/tencent/ncnnyoloface/databinding/FragmentAttendanceInquiry2Binding.java
+ com.tencent.ncnnyoloface.databinding.FragmentAttendanceInquiry2Binding
 com/viewmodel/svm/fragment/student/StudentHomeSVM.java
  com.viewmodel.svm.fragment.student.StudentHomeSVM
 com/viewmodel/svm/activity/student/StudentAttendanceRecordSVM.java
  com.viewmodel.svm.activity.student.StudentAttendanceRecordSVM
+com/viewmodel/rvm/fragment/teacher/AttendanceInquiry1RVM.java
+ com.viewmodel.rvm.fragment.teacher.AttendanceInquiry1RVM
 com/utils/InputChecker.java
  com.utils.InputChecker
+com/viewmodel/rvm/activity/student/StudentAttendanceRecordRVM.java
+ com.viewmodel.rvm.activity.student.StudentAttendanceRecordRVM
+com/interceptor/ReadTokenInterceptor.java
+ com.interceptor.ReadTokenInterceptor
+com/response/db/SharedPreferencesManager.java
+ com.response.db.SharedPreferencesManager
 com/view/activity/student/StudentMainActivity.java
  com.view.activity.student.StudentMainActivity
  com.view.activity.student.StudentMainActivity$1
  com.view.activity.student.StudentMainActivity$ClickClass
-com/response/retrofit_api/IStudentService.java
- com.response.retrofit_api.IStudentService
-com/response/retrofit_api/IPublicService.java
- com.response.retrofit_api.IPublicService
-com/tencent/ncnnyoloface/databinding/ActivityTeacherMainBinding.java
- com.tencent.ncnnyoloface.databinding.ActivityTeacherMainBinding
-com/viewmodel/rvm/activity/student/StudentAttendanceRecordRVM.java
- com.viewmodel.rvm.activity.student.StudentAttendanceRecordRVM
-com/baidu/ai/aip/utils/ThreadReturn.java
- com.baidu.ai.aip.utils.ThreadReturn
+com/view/activity/student/StudentLoginActivity.java
+ com.view.activity.student.StudentLoginActivity
+ com.view.activity.student.StudentLoginActivity$ClickClass
+com/tencent/ncnnyoloface/databinding/ActivityStudentMainBinding.java
+ com.tencent.ncnnyoloface.databinding.ActivityStudentMainBinding
+com/response/network/HttpRequestManager.java
+ com.response.network.HttpRequestManager
+ com.response.network.HttpRequestManager$1
+ com.response.network.HttpRequestManager$10
+ com.response.network.HttpRequestManager$11
+ com.response.network.HttpRequestManager$12
+ com.response.network.HttpRequestManager$13
+ com.response.network.HttpRequestManager$14
+ com.response.network.HttpRequestManager$2
+ com.response.network.HttpRequestManager$3
+ com.response.network.HttpRequestManager$4
+ com.response.network.HttpRequestManager$5
+ com.response.network.HttpRequestManager$6
+ com.response.network.HttpRequestManager$7
+ com.response.network.HttpRequestManager$8
+ com.response.network.HttpRequestManager$9

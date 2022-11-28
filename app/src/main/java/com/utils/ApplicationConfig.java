@@ -1,9 +1,11 @@
 package com.utils;
 
-import android.annotation.SuppressLint;
+import android.app.Application;
 import android.content.Context;
 
-public class ApplicationConfig {
+import androidx.annotation.NonNull;
+
+public class ApplicationConfig extends Application {
     public static String userName="";
     public static String userID="";
 
@@ -14,17 +16,16 @@ public class ApplicationConfig {
     public static final int DELETE_COURSE=1;//学生退出课程，或老师删除课程
 
 
-    @SuppressLint("StaticFieldLeak")
-    public static Context loginContext;
-    @SuppressLint("StaticFieldLeak")
-    public static Context registerContext;
-    @SuppressLint("StaticFieldLeak")
-    public static Context mainContext;
+    private static Application context;
 
-    public static Context getContext(){
-        if(mainContext!=null) return mainContext;
-        if(loginContext!=null) return loginContext;
-        if(registerContext!=null) return registerContext;
-        return null;
+    @NonNull
+    public static Context getContext() {
+        return context;
+    }
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        context = this;
     }
 }

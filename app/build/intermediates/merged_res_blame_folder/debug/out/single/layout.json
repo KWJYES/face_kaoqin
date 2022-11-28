@@ -1,19 +1,11 @@
 [
     {
-        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_create_course.xml",
-        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\dialog_create_course.xml"
-    },
-    {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_student__attendance_record.xml",
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_student__attendance_record.xml"
     },
     {
-        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_start.xml",
-        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_start.xml"
-    },
-    {
-        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_mine.xml",
-        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\fragment_mine.xml"
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_attendance_inquiry1.xml",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\fragment_attendance_inquiry1.xml"
     },
     {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_teacher_main.xml",
@@ -24,32 +16,12 @@
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_teacher_register.xml"
     },
     {
-        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_student_login.xml",
-        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_student_login.xml"
-    },
-    {
-        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_teacher_login.xml",
-        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_teacher_login.xml"
-    },
-    {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_student_register.xml",
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_student_register.xml"
     },
     {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\fragment_home.xml"
-    },
-    {
-        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_teacher_course.xml",
-        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_teacher_course.xml"
-    },
-    {
-        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_student_course.xml",
-        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_student_course.xml"
-    },
-    {
-        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_inquire_course_join_bean__message.xml",
-        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\item_inquire_course_join_bean__message.xml"
     },
     {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_student_attendance.xml",
@@ -60,16 +32,64 @@
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\dialog_start_attendance.xml"
     },
     {
-        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_student_main.xml",
-        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_student_main.xml"
-    },
-    {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home2.xml",
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\fragment_home2.xml"
     },
     {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_join_in_course.xml",
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\dialog_join_in_course.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_create_course.xml",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\dialog_create_course.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_start.xml",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_teacher_mine.xml",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\fragment_teacher_mine.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_mine.xml",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\fragment_mine.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_student_login.xml",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_student_login.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_teacher_login.xml",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_teacher_login.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_attendance_inquiry.xml",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_attendance_inquiry.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_teacher_course.xml",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_teacher_course.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_student_course.xml",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_student_course.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_attendance_inquire_course_bean__message.xml",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\item_attendance_inquire_course_bean__message.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_inquire_course_join_bean__message.xml",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\item_inquire_course_join_bean__message.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_attendance_inquiry2.xml",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\fragment_attendance_inquiry2.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_student_main.xml",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_student_main.xml"
     },
     {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_inquire_course_bean__message.xml",
