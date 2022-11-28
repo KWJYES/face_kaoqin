@@ -16,6 +16,10 @@
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_teacher_register.xml"
     },
     {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_inquire_attendance.xml",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\item_inquire_attendance.xml"
+    },
+    {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_student_register.xml",
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_student_register.xml"
     },

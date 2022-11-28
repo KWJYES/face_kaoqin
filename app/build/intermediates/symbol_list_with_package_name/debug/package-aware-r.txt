@@ -1726,8 +1726,10 @@ drawable design_snackbar_background
 drawable dialog_new_course
 drawable et_cursor
 drawable get_captcha_btn
+drawable ic_calendar
 drawable ic_clock_black_24dp
 drawable ic_email_fill
+drawable ic_empty_box
 drawable ic_join_in_course0
 drawable ic_join_in_course1
 drawable ic_kaoqin_chaxun
@@ -1883,6 +1885,7 @@ id barrier
 id baseline
 id beginOnFirstDraw
 id beginning
+id blank_box
 id blocking
 id bottom
 id bottomNavigation
@@ -2038,6 +2041,7 @@ id linearLayout3
 id linearLayout4
 id linearLayout5
 id linearLayout6
+id linearLayout7
 id listMode
 id list_item
 id mainViewPager2
@@ -2141,6 +2145,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rv_attendance
 id rv_course
 id save_non_transition_alpha
 id save_overlay_view
@@ -2238,6 +2243,8 @@ id textView11
 id textView12
 id textView13
 id textView14
+id textView15
+id textView16
 id textView2
 id textView3
 id textView4
@@ -2272,6 +2279,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_dateString
 id tv_sum
 id unchecked
 id uniform
@@ -2388,6 +2396,7 @@ layout fragment_home2
 layout fragment_mine
 layout fragment_teacher_mine
 layout item_attendance_inquire_course_bean__message
+layout item_inquire_attendance
 layout item_inquire_course_bean__message
 layout item_inquire_course_join_bean__message
 layout item_student_attendance

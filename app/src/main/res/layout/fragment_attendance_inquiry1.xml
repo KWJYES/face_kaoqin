@@ -20,6 +20,7 @@
         android:background="@color/bg_null"
         tools:context="com.view.fragment.teacher.AttendanceInquiry1Fragment">
         <com.scwang.smart.refresh.layout.SmartRefreshLayout
+            android:id="@+id/smartRefreshLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <com.scwang.smart.refresh.header.ClassicsHeader

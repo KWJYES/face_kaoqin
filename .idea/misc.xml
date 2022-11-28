@@ -9,6 +9,7 @@
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/drawable/dialog_new_course.xml" value="0.2490740740740741" />
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/drawable/et_cursor.xml" value="0.23333333333333334" />
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/drawable/get_captcha_btn.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/drawable/ic_calendar.xml" value="0.2692307692307692" />
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/drawable/ic_email_fill.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/drawable/ic_join_in_course.xml" value="0.225" />
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/drawable/ic_join_in_course0.xml" value="0.225" />
@@ -57,12 +58,13 @@
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/layout/dialog_new_course.xml" value="0.21739130434782608" />
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/layout/dialog_start_attendance.xml" value="0.19166666666666668" />
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/layout/fragment_attendance_inquiry1.xml" value="0.21829710144927536" />
-        <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/layout/fragment_attendance_inquiry2.xml" value="0.21829710144927536" />
+        <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/layout/fragment_attendance_inquiry2.xml" value="0.20168066580377575" />
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/layout/fragment_home.xml" value="0.2164855072463768" />
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/layout/fragment_home2.xml" value="0.2164855072463768" />
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/layout/fragment_mine.xml" value="0.26621847886098404" />
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/layout/fragment_teacher_mine.xml" value="0.20168066580377575" />
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/layout/item_attendance_inquire_course_bean__message.xml" value="0.26621847886098404" />
+        <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/layout/item_inquire_attendance.xml" value="0.21875" />
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/layout/item_inquire_course_bean__message.xml" value="0.26621847886098404" />
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/layout/item_inquire_course_join_bean__message.xml" value="0.2164855072463768" />
         <entry key="..\:/AndroidStudioProgects/face_kaoqing/app/src/main/res/layout/item_student_attendance.xml" value="0.24448529411764705" />

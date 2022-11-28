@@ -1725,8 +1725,10 @@ int drawable design_snackbar_background 0x7f080071
 int drawable dialog_new_course 0x7f080072
 int drawable et_cursor 0x7f080073
 int drawable get_captcha_btn 0x7f080074
+int drawable ic_calendar 0x7f0800b5
 int drawable ic_clock_black_24dp 0x7f080075
 int drawable ic_email_fill 0x7f080076
+int drawable ic_empty_box 0x7f0800b6
 int drawable ic_join_in_course0 0x7f080077
 int drawable ic_join_in_course1 0x7f080078
 int drawable ic_kaoqin_chaxun 0x7f080079
@@ -1882,6 +1884,7 @@ int id barrier 0x7f09005b
 int id baseline 0x7f09005c
 int id beginOnFirstDraw 0x7f09005d
 int id beginning 0x7f09005e
+int id blank_box 0x7f090208
 int id blocking 0x7f09005f
 int id bottom 0x7f090060
 int id bottomNavigation 0x7f090061
@@ -2037,6 +2040,7 @@ int id linearLayout3 0x7f0900fa
 int id linearLayout4 0x7f0900fb
 int id linearLayout5 0x7f0900fc
 int id linearLayout6 0x7f0900fd
+int id linearLayout7 0x7f090206
 int id listMode 0x7f0900fe
 int id list_item 0x7f0900ff
 int id mainViewPager2 0x7f090102
@@ -2140,6 +2144,7 @@ int id right_icon 0x7f090164
 int id right_side 0x7f090165
 int id rounded 0x7f090166
 int id row_index_key 0x7f090167
+int id rv_attendance 0x7f090205
 int id rv_course 0x7f090202
 int id save_non_transition_alpha 0x7f090169
 int id save_overlay_view 0x7f09016a
@@ -2237,6 +2242,8 @@ int id textView11 0x7f0901ca
 int id textView12 0x7f0901cb
 int id textView13 0x7f090203
 int id textView14 0x7f090204
+int id textView15 0x7f090209
+int id textView16 0x7f09020a
 int id textView2 0x7f0901cc
 int id textView3 0x7f0901cd
 int id textView4 0x7f0901ce
@@ -2271,6 +2278,7 @@ int id transition_position 0x7f0901ea
 int id transition_scene_layoutid_cache 0x7f0901eb
 int id transition_transform 0x7f0901ec
 int id triangle 0x7f0901ed
+int id tv_dateString 0x7f090207
 int id tv_sum 0x7f0901ee
 int id unchecked 0x7f0901ef
 int id uniform 0x7f0901f0
@@ -2387,6 +2395,7 @@ int layout fragment_home2 0x7f0c003f
 int layout fragment_mine 0x7f0c0040
 int layout fragment_teacher_mine 0x7f0c0041
 int layout item_attendance_inquire_course_bean__message 0x7f0c0095
+int layout item_inquire_attendance 0x7f0c0096
 int layout item_inquire_course_bean__message 0x7f0c0042
 int layout item_inquire_course_join_bean__message 0x7f0c0043
 int layout item_student_attendance 0x7f0c0044

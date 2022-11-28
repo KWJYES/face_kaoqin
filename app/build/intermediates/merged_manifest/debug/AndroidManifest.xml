@@ -20,6 +20,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name="com.utils.ApplicationConfig"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -29,6 +30,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.view.activity.teacher.AttendanceInquiryActivity"
+            android:exported="false" />
         <activity
             android:name="com.view.activity.student.StudentAttendanceRecordActivity"
             android:exported="false" />

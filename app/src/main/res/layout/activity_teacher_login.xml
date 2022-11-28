@@ -42,7 +42,7 @@
         <LinearLayout
             android:padding="5dp"
             android:background="@drawable/bg_ll"
-            android:layout_marginTop="400dp"
+            android:layout_marginTop="200dp"
             android:id="@+id/linearLayout"
             android:layout_width="250dp"
             android:layout_height="wrap_content"

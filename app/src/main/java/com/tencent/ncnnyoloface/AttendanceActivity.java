@@ -19,7 +19,6 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.PixelFormat;
 import android.os.Bundle;
-import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
 import android.view.Gravity;
@@ -38,10 +37,6 @@ import androidx.core.content.ContextCompat;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import java.util.ArrayList;
-import java.util.Timer;
-import java.util.TimerTask;
-
 import com.baidu.ai.aip.utils.FaceSearch;
 import com.baidu.ai.aip.utils.MyHelper;
 import com.entity.EventBusMessage;
@@ -52,6 +47,10 @@ import com.viewmodel.rvm.activity.teacher.AttendanceRVM;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
+
+import java.util.ArrayList;
+import java.util.Timer;
+import java.util.TimerTask;
 
 
 public class AttendanceActivity extends AppCompatActivity implements SurfaceHolder.Callback {
@@ -179,7 +178,7 @@ public class AttendanceActivity extends AppCompatActivity implements SurfaceHold
                 AttendanceBean bean=new AttendanceBean();
                 bean.setCourse_id(course_id);
                 bean.setStudent_id(message.context);
-                bean.setCourse_time(course_time);
+                bean.setLesson_time(course_time);
                 rvm.attendance(bean);
                 break;
         }

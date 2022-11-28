@@ -6,7 +6,9 @@ import com.response.retrofit_api.requstbody_bean.AttendanceBean;
 import com.response.retrofit_api.requstbody_bean.CheckCourseExistBean;
 import com.response.retrofit_api.requstbody_bean.CourseCreateBean;
 import com.response.retrofit_api.requstbody_bean.InputAttendanceRecordBean;
+import com.response.retrofit_api.requstbody_bean.InquireAttendanceBean;
 import com.response.retrofit_api.resposebody_bean.InquireCourseBean;
+import com.response.retrofit_api.resposebody_bean.TeacherInquireAttendanceBean;
 
 import java.util.List;
 
@@ -81,4 +83,16 @@ public interface ITeacherNetworkRequest {
      * }
      */
     void inputAttendanceRecord(MutableLiveData<Boolean> state, InputAttendanceRecordBean bean);
+
+    /**
+     * 考勤查询
+     * @param inquireAttendanceBean {
+     *   "course_id": 123456,
+     *   "attendance_time": "2022-11-19",
+     *   "lessons_time": "三"
+     * }
+     * @param list
+     * @param state
+     */
+    void teacherInquire_attendance(InquireAttendanceBean inquireAttendanceBean,MutableLiveData<List<TeacherInquireAttendanceBean.Message>> list,MutableLiveData<Boolean> state);
 }

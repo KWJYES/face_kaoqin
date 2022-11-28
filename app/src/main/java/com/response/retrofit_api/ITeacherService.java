@@ -4,7 +4,9 @@ import com.response.retrofit_api.requstbody_bean.AttendanceBean;
 import com.response.retrofit_api.requstbody_bean.CheckCourseExistBean;
 import com.response.retrofit_api.requstbody_bean.CourseCreateBean;
 import com.response.retrofit_api.requstbody_bean.InputAttendanceRecordBean;
+import com.response.retrofit_api.requstbody_bean.InquireAttendanceBean;
 import com.response.retrofit_api.resposebody_bean.InquireCourseBean;
+import com.response.retrofit_api.resposebody_bean.TeacherInquireAttendanceBean;
 
 import okhttp3.ResponseBody;
 import retrofit2.Call;
@@ -87,4 +89,16 @@ public interface ITeacherService {
      */
     @POST("/teacher/input_attendenceRecord")
     Call<ResponseBody> inputAttendanceRecord(@Body InputAttendanceRecordBean body);
+
+    /**
+     * （新）考勤查询
+     * @param body {
+     *   "course_id": 123456,
+     *   "attendance_time": "2022-11-19",
+     *   "lessons_time": "三"
+     * }
+     * @return
+     */
+    @POST("/teacher/inquire_attendance")
+    Call<TeacherInquireAttendanceBean> teacherInquire_attendance(@Body InquireAttendanceBean body);
 }

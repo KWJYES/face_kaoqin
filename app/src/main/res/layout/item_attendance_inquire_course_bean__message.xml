@@ -14,9 +14,11 @@
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/white"
+        android:onClick="@{click::itemOnClick}"
         android:foreground="?attr/selectableItemBackground"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:layout_height="50dp"
         android:layout_marginTop="8dp">
 
         <TextView
@@ -26,7 +28,7 @@
             android:layout_marginStart="20dp"
             android:text="@{svm.course_name}"
             android:textColor="@color/black"
-            android:textSize="17sp"
+            android:textSize="15sp"
             app:layout_constraintBottom_toTopOf="@+id/textView14"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -35,7 +37,7 @@
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="20dp"
-            android:textSize="15sp"
+            android:textSize="14sp"
             android:text="@{svm.id}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/textView13"

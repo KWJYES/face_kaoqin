@@ -27,6 +27,7 @@ import com.tencent.ncnnyoloface.databinding.FragmentHomeBindingImpl;
 import com.tencent.ncnnyoloface.databinding.FragmentMineBindingImpl;
 import com.tencent.ncnnyoloface.databinding.FragmentTeacherMineBindingImpl;
 import com.tencent.ncnnyoloface.databinding.ItemAttendanceInquireCourseBeanMessageBindingImpl;
+import com.tencent.ncnnyoloface.databinding.ItemInquireAttendanceBindingImpl;
 import com.tencent.ncnnyoloface.databinding.ItemInquireCourseBeanMessageBindingImpl;
 import com.tencent.ncnnyoloface.databinding.ItemInquireCourseJoinBeanMessageBindingImpl;
 import com.tencent.ncnnyoloface.databinding.ItemStudentAttendanceBindingImpl;
@@ -83,13 +84,15 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ITEMATTENDANCEINQUIRECOURSEBEANMESSAGE = 21;
 
-  private static final int LAYOUT_ITEMINQUIRECOURSEBEANMESSAGE = 22;
+  private static final int LAYOUT_ITEMINQUIREATTENDANCE = 22;
 
-  private static final int LAYOUT_ITEMINQUIRECOURSEJOINBEANMESSAGE = 23;
+  private static final int LAYOUT_ITEMINQUIRECOURSEBEANMESSAGE = 23;
 
-  private static final int LAYOUT_ITEMSTUDENTATTENDANCE = 24;
+  private static final int LAYOUT_ITEMINQUIRECOURSEJOINBEANMESSAGE = 24;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(24);
+  private static final int LAYOUT_ITEMSTUDENTATTENDANCE = 25;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(25);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.tencent.ncnnyoloface.R.layout.activity_attendance_inquiry, LAYOUT_ACTIVITYATTENDANCEINQUIRY);
@@ -113,6 +116,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.tencent.ncnnyoloface.R.layout.fragment_mine, LAYOUT_FRAGMENTMINE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.tencent.ncnnyoloface.R.layout.fragment_teacher_mine, LAYOUT_FRAGMENTTEACHERMINE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.tencent.ncnnyoloface.R.layout.item_attendance_inquire_course_bean__message, LAYOUT_ITEMATTENDANCEINQUIRECOURSEBEANMESSAGE);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.tencent.ncnnyoloface.R.layout.item_inquire_attendance, LAYOUT_ITEMINQUIREATTENDANCE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.tencent.ncnnyoloface.R.layout.item_inquire_course_bean__message, LAYOUT_ITEMINQUIRECOURSEBEANMESSAGE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.tencent.ncnnyoloface.R.layout.item_inquire_course_join_bean__message, LAYOUT_ITEMINQUIRECOURSEJOINBEANMESSAGE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.tencent.ncnnyoloface.R.layout.item_student_attendance, LAYOUT_ITEMSTUDENTATTENDANCE);
@@ -253,6 +257,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for item_attendance_inquire_course_bean__message is invalid. Received: " + tag);
         }
+        case  LAYOUT_ITEMINQUIREATTENDANCE: {
+          if ("layout/item_inquire_attendance_0".equals(tag)) {
+            return new ItemInquireAttendanceBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for item_inquire_attendance is invalid. Received: " + tag);
+        }
         case  LAYOUT_ITEMINQUIRECOURSEBEANMESSAGE: {
           if ("layout/item_inquire_course_bean__message_0".equals(tag)) {
             return new ItemInquireCourseBeanMessageBindingImpl(component, view);
@@ -328,7 +338,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(24);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(25);
 
     static {
       sKeys.put("layout/activity_attendance_inquiry_0", com.tencent.ncnnyoloface.R.layout.activity_attendance_inquiry);
@@ -352,6 +362,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/fragment_mine_0", com.tencent.ncnnyoloface.R.layout.fragment_mine);
       sKeys.put("layout/fragment_teacher_mine_0", com.tencent.ncnnyoloface.R.layout.fragment_teacher_mine);
       sKeys.put("layout/item_attendance_inquire_course_bean__message_0", com.tencent.ncnnyoloface.R.layout.item_attendance_inquire_course_bean__message);
+      sKeys.put("layout/item_inquire_attendance_0", com.tencent.ncnnyoloface.R.layout.item_inquire_attendance);
       sKeys.put("layout/item_inquire_course_bean__message_0", com.tencent.ncnnyoloface.R.layout.item_inquire_course_bean__message);
       sKeys.put("layout/item_inquire_course_join_bean__message_0", com.tencent.ncnnyoloface.R.layout.item_inquire_course_join_bean__message);
       sKeys.put("layout/item_student_attendance_0", com.tencent.ncnnyoloface.R.layout.item_student_attendance);

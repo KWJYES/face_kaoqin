@@ -22,6 +22,7 @@ import com.response.retrofit_api.resposebody_bean.InquireAttendanceBean;
 import com.response.retrofit_api.resposebody_bean.InquireCourseBean;
 import com.response.retrofit_api.resposebody_bean.InquireCourseJoinBean;
 import com.response.retrofit_api.resposebody_bean.JoinInCourseSucceed;
+import com.response.retrofit_api.resposebody_bean.TeacherInquireAttendanceBean;
 import com.utils.ApplicationConfig;
 import com.utils.JWTUtil;
 
@@ -94,7 +95,8 @@ public class HttpRequestManager implements IStudentNetworkRequest, ITeacherNetwo
                         int code = jsonObject.getInt("code");
                         if (code != 200) {
                             Toast.makeText(ApplicationConfig.getContext(), jsonObject.getString("message"), Toast.LENGTH_SHORT).show();
-                            Log.d("HttpRequestManager", "login code=" + code);
+                            Log.d("HttpRequestManager", "attendanceRecord code=" + code);
+                            Log.d("HttpRequestManager", "body = " +bean.toString());
                             Log.d("HttpRequestManager", jsonObject.toString());
                             return;
                         }
@@ -129,7 +131,7 @@ public class HttpRequestManager implements IStudentNetworkRequest, ITeacherNetwo
                         int code = jsonObject.getInt("code");
                         if (code != 200) {
                             Toast.makeText(ApplicationConfig.getContext(), jsonObject.getString("message"), Toast.LENGTH_SHORT).show();
-                            Log.d("HttpRequestManager", "login code=" + code);
+                            Log.d("HttpRequestManager", "teacherRegister code=" + code);
                             Log.d("HttpRequestManager", jsonObject.toString());
                             return;
                         }
@@ -300,13 +302,14 @@ public class HttpRequestManager implements IStudentNetworkRequest, ITeacherNetwo
                         int code = jsonObject.getInt("code");
                         if (code != 200) {
                             Toast.makeText(ApplicationConfig.getContext(), jsonObject.getString("message"), Toast.LENGTH_SHORT).show();
-                            Log.d("HttpRequestManager", "login code=" + code);
+                            Log.d("HttpRequestManager", "inputAttendanceRecord code=" + code);
                             Log.d("HttpRequestManager", jsonObject.toString());
                             return;
                         }
                     } catch (JSONException | IOException e) {
                         e.printStackTrace();
                     }
+                    Log.d("HttpRequestManager", "添加发起的考勤进入数据库 成功");
                     state.setValue(true);
                 } else {
                     Log.d("HttpRequestManager", "response.code()=" + response.code());
@@ -318,6 +321,27 @@ public class HttpRequestManager implements IStudentNetworkRequest, ITeacherNetwo
             public void onFailure(Call<ResponseBody> call, Throwable t) {
                 state.setValue(false);
                 Log.d("HttpRequestManager", "请求失败");
+            }
+        });
+    }
+
+    @Override
+    public void teacherInquire_attendance(com.response.retrofit_api.requstbody_bean.InquireAttendanceBean inquireAttendanceBean, MutableLiveData<List<TeacherInquireAttendanceBean.Message>> list, MutableLiveData<Boolean> state) {
+        teacherService.teacherInquire_attendance(inquireAttendanceBean).enqueue(new Callback<TeacherInquireAttendanceBean>() {
+            @Override
+            public void onResponse(Call<TeacherInquireAttendanceBean> call, Response<TeacherInquireAttendanceBean> response) {
+                TeacherInquireAttendanceBean bean=response.body();
+                if(bean==null||bean.getMessage()==null){
+                    list.setValue(new ArrayList<>());
+                }else {
+                    list.setValue(bean.getMessage());
+                }
+                state.setValue(true);
+            }
+
+            @Override
+            public void onFailure(Call<TeacherInquireAttendanceBean> call, Throwable t) {
+                state.setValue(false);
             }
         });
     }
@@ -335,7 +359,7 @@ public class HttpRequestManager implements IStudentNetworkRequest, ITeacherNetwo
                         int code = jsonObject.getInt("code");
                         if (code != 200) {
                             Toast.makeText(ApplicationConfig.getContext(), jsonObject.getString("message"), Toast.LENGTH_SHORT).show();
-                            Log.d("HttpRequestManager", "login code=" + code);
+                            Log.d("HttpRequestManager", "Register code=" + code);
                             Log.d("HttpRequestManager", jsonObject.toString());
                             return;
                         }

@@ -4,17 +4,22 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.adapter.teacher.CourseInquireAttendanceAdapter;
 import com.base.BaseFragment;
 import com.callback.CourseItemOnClickListener;
+import com.response.retrofit_api.resposebody_bean.InquireCourseBean;
 import com.tencent.ncnnyoloface.R;
 import com.tencent.ncnnyoloface.databinding.FragmentAttendanceInquiry1Binding;
 import com.viewmodel.rvm.fragment.teacher.AttendanceInquiry1RVM;
 import com.viewmodel.svm.fragment.teacher.AttendanceInquiry1SVM;
+
+import java.util.List;
 
 
 public class AttendanceInquiry1Fragment extends BaseFragment {
@@ -23,7 +28,7 @@ public class AttendanceInquiry1Fragment extends BaseFragment {
     AttendanceInquiry1SVM svm;
     AttendanceInquiry1RVM rvm;
     FragmentAttendanceInquiry1Binding binding;
-    private CourseItemOnClickListener courseItemOnClickListener;
+    private final CourseItemOnClickListener courseItemOnClickListener;
 
     public AttendanceInquiry1Fragment(CourseItemOnClickListener courseItemOnClickListener) {
         this.courseItemOnClickListener = courseItemOnClickListener;
@@ -41,11 +46,34 @@ public class AttendanceInquiry1Fragment extends BaseFragment {
     }
 
     @Override
-    protected void initView() {
-        binding.rvCourse.setLayoutManager(new LinearLayoutManager(getActivity()));
+    protected void observerDataStateUpdateAction() {
+        rvm.inquireCourseState.observe(this, aBoolean -> {
+            if (!aBoolean) {
+                Toast.makeText(getActivity(), "无课程", Toast.LENGTH_SHORT).show();
+            }
+            binding.smartRefreshLayout.finishRefresh();
+        });
+        rvm.courseList.observe(this, this::updateRV);
     }
 
-    public class ClickClass{
+    @Override
+    protected void initView() {
+        binding.smartRefreshLayout.setOnRefreshListener(refreshLayout -> rvm.inquireCourse());
+    }
+
+    @Override
+    protected void getInternetData() {
+        rvm.inquireCourse();
+    }
+
+    private void updateRV(List<InquireCourseBean.Message> data) {
+        binding.rvCourse.setLayoutManager(new LinearLayoutManager(getActivity()));
+        CourseInquireAttendanceAdapter adapter = new CourseInquireAttendanceAdapter(data);
+        adapter.setCourseItemOnClickListener(courseItemOnClickListener);
+        binding.rvCourse.setAdapter(adapter);
+    }
+
+    public class ClickClass {
 
     }
 }
