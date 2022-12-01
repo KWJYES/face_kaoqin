@@ -20,6 +20,7 @@ import android.content.pm.PackageManager;
 import android.graphics.PixelFormat;
 import android.os.Bundle;
 import android.os.Looper;
+import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.SurfaceHolder;
@@ -49,6 +50,7 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -68,10 +70,14 @@ public class AttendanceActivity extends AppCompatActivity implements SurfaceHold
 
     private String course_id,course_time;//课号，第几大节
     AttendanceRVM rvm;
+    private Calendar calendar;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        calendar = Calendar.getInstance();
+
         setContentView(R.layout.activity_attendance);
         rvm = new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(AttendanceRVM.class);
         observerDataStateUpdateAction();
@@ -179,6 +185,7 @@ public class AttendanceActivity extends AppCompatActivity implements SurfaceHold
                 bean.setCourse_id(course_id);
                 bean.setStudent_id(message.context);
                 bean.setLesson_time(course_time);
+                bean.setAttendance_time((String) DateFormat.format("yyy-MM-dd", calendar));
                 rvm.attendance(bean);
                 break;
         }

@@ -17,6 +17,11 @@ import retrofit2.http.POST;
 
 public interface ITeacherService {
 
+    /**
+     * 某学生打卡成功
+     * @param body
+     * @return
+     */
     @POST("/teacher/attendance_record")
     Call<ResponseBody> attendance_record(@Body AttendanceBean body);
 

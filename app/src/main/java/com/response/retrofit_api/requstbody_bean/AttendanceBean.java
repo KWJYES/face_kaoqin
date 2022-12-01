@@ -4,6 +4,15 @@ public class AttendanceBean {
     private String course_id;
     private String student_id;
     private String lesson_time;
+    private String attendance_time;
+
+    public String getAttendance_time() {
+        return attendance_time;
+    }
+
+    public void setAttendance_time(String attendance_time) {
+        this.attendance_time = attendance_time;
+    }
 
     public String getCourse_id() { return course_id; }
     public void setCourse_id(String value) { this.course_id = value; }
@@ -26,7 +35,8 @@ public class AttendanceBean {
         return "AttendanceBean{" +
                 "course_id='" + course_id + '\'' +
                 ", student_id='" + student_id + '\'' +
-                ", course_time='" + lesson_time + '\'' +
+                ", lesson_time='" + lesson_time + '\'' +
+                ", attendance_time='" + attendance_time + '\'' +
                 '}';
     }
 }

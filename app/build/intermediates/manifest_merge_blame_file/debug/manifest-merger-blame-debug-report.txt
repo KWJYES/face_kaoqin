@@ -49,109 +49,110 @@
 28-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:20:9-30
 29        android:supportsRtl="true"
 29-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:22:9-35
-30        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-30-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:23:9-65
-31        android:usesCleartextTraffic="true" >
-31-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:24:9-44
-32        <activity
-32-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:25:9-27:40
-33            android:name="com.view.activity.teacher.AttendanceInquiryActivity"
-33-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:26:13-79
-34            android:exported="false" />
-34-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:27:13-37
-35        <activity
-35-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:28:9-30:40
-36            android:name="com.view.activity.student.StudentAttendanceRecordActivity"
-36-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:29:13-85
-37            android:exported="false" />
-37-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:30:13-37
-38        <activity
-38-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:31:9-33:40
-39            android:name="com.view.activity.student.StudentCourseActivity"
-39-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:32:13-75
-40            android:exported="false" />
-40-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:33:13-37
-41        <activity
-41-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:34:9-36:40
-42            android:name="com.view.activity.teacher.TeacherCourseActivity"
-42-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:35:13-75
-43            android:exported="false" />
-43-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:36:13-37
-44        <activity
-44-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:37:9-39:40
-45            android:name="com.view.activity.student.StudentMainActivity"
-45-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:38:13-73
-46            android:exported="false" />
-46-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:39:13-37
-47        <activity
-47-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:40:9-43:47
-48            android:name="com.view.activity.teacher.TeacherMainActivity"
-48-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:41:13-73
-49            android:exported="true"
-49-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:42:13-36
-50            android:launchMode="singleTask" />
-50-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:43:13-44
-51        <activity
-51-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:44:9-46:40
-52            android:name="com.view.activity.teacher.TeacherLoginActivity"
-52-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:45:13-74
-53            android:exported="false" />
-53-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:46:13-37
-54        <activity
-54-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:47:9-49:40
-55            android:name="com.view.activity.teacher.TeacherRegisterActivity"
-55-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:48:13-77
-56            android:exported="false" />
-56-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:49:13-37
-57        <activity
-57-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:50:9-52:40
-58            android:name="com.view.activity.student.StudentRegisterActivity"
-58-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:51:13-77
-59            android:exported="false" />
-59-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:52:13-37
-60        <activity
-60-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:53:9-55:40
-61            android:name="com.view.activity.student.StudentLoginActivity"
-61-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:54:13-74
-62            android:exported="false" />
-62-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:55:13-37
-63        <activity
-63-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:56:9-64:20
-64            android:name="com.view.activity.StartActivity"
-64-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:57:13-59
-65            android:exported="true" >
-65-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:58:13-36
-66            <intent-filter>
-66-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:59:13-63:29
-67                <action android:name="android.intent.action.MAIN" />
-67-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:60:17-69
-67-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:60:25-66
-68
-69                <category android:name="android.intent.category.LAUNCHER" />
-69-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:62:17-77
-69-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:62:27-74
-70            </intent-filter>
-71        </activity>
-72        <activity android:name="com.tencent.ncnnyoloface.SelectActivity" />
-72-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:65:9-52
-72-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:65:19-49
-73        <activity android:name="com.tencent.ncnnyoloface.DeleteInfoActivity" />
-73-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:66:9-56
-73-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:66:19-53
-74        <activity android:name="com.tencent.ncnnyoloface.SearchDataActivity" />
-74-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:67:9-56
-74-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:67:19-53
-75        <activity android:name="com.tencent.ncnnyoloface.RegisterActivity" />
-75-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:68:9-54
-75-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:68:19-51
-76        <activity
-76-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:69:9-72:54
-77            android:name="com.tencent.ncnnyoloface.AttendanceActivity"
-77-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:70:13-47
-78            android:label="无感知人脸考勤"
-78-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:71:13-36
-79            android:screenOrientation="fullSensor" />
-79-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:72:13-51
-80    </application>
-81
-82</manifest>
+30        android:testOnly="true"
+31        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+31-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:23:9-65
+32        android:usesCleartextTraffic="true" >
+32-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:24:9-44
+33        <activity
+33-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:25:9-27:40
+34            android:name="com.view.activity.teacher.AttendanceInquiryActivity"
+34-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:26:13-79
+35            android:exported="false" />
+35-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:27:13-37
+36        <activity
+36-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:28:9-30:40
+37            android:name="com.view.activity.student.StudentAttendanceRecordActivity"
+37-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:29:13-85
+38            android:exported="false" />
+38-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:30:13-37
+39        <activity
+39-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:31:9-33:40
+40            android:name="com.view.activity.student.StudentCourseActivity"
+40-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:32:13-75
+41            android:exported="false" />
+41-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:33:13-37
+42        <activity
+42-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:34:9-36:40
+43            android:name="com.view.activity.teacher.TeacherCourseActivity"
+43-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:35:13-75
+44            android:exported="false" />
+44-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:36:13-37
+45        <activity
+45-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:37:9-39:40
+46            android:name="com.view.activity.student.StudentMainActivity"
+46-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:38:13-73
+47            android:exported="false" />
+47-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:39:13-37
+48        <activity
+48-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:40:9-43:47
+49            android:name="com.view.activity.teacher.TeacherMainActivity"
+49-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:41:13-73
+50            android:exported="true"
+50-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:42:13-36
+51            android:launchMode="singleTask" />
+51-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:43:13-44
+52        <activity
+52-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:44:9-46:40
+53            android:name="com.view.activity.teacher.TeacherLoginActivity"
+53-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:45:13-74
+54            android:exported="false" />
+54-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:46:13-37
+55        <activity
+55-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:47:9-49:40
+56            android:name="com.view.activity.teacher.TeacherRegisterActivity"
+56-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:48:13-77
+57            android:exported="false" />
+57-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:49:13-37
+58        <activity
+58-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:50:9-52:40
+59            android:name="com.view.activity.student.StudentRegisterActivity"
+59-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:51:13-77
+60            android:exported="false" />
+60-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:52:13-37
+61        <activity
+61-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:53:9-55:40
+62            android:name="com.view.activity.student.StudentLoginActivity"
+62-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:54:13-74
+63            android:exported="false" />
+63-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:55:13-37
+64        <activity
+64-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:56:9-64:20
+65            android:name="com.view.activity.StartActivity"
+65-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:57:13-59
+66            android:exported="true" >
+66-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:58:13-36
+67            <intent-filter>
+67-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:59:13-63:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:60:17-69
+68-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:60:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:62:17-77
+70-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:62:27-74
+71            </intent-filter>
+72        </activity>
+73        <activity android:name="com.tencent.ncnnyoloface.SelectActivity" />
+73-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:65:9-52
+73-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:65:19-49
+74        <activity android:name="com.tencent.ncnnyoloface.DeleteInfoActivity" />
+74-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:66:9-56
+74-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:66:19-53
+75        <activity android:name="com.tencent.ncnnyoloface.SearchDataActivity" />
+75-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:67:9-56
+75-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:67:19-53
+76        <activity android:name="com.tencent.ncnnyoloface.RegisterActivity" />
+76-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:68:9-54
+76-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:68:19-51
+77        <activity
+77-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:69:9-72:54
+78            android:name="com.tencent.ncnnyoloface.AttendanceActivity"
+78-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:70:13-47
+79            android:label="无感知人脸考勤"
+79-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:71:13-36
+80            android:screenOrientation="fullSensor" />
+80-->J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:72:13-51
+81    </application>
+82
+83</manifest>

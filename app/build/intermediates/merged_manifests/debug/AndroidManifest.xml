@@ -27,6 +27,7 @@
         android:extractNativeLibs="false"
         android:label="大创APP"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true" >
         <activity
