@@ -17,6 +17,7 @@ package com.tencent.ncnnyoloface;
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.graphics.PixelFormat;
 import android.os.Bundle;
 import android.os.Looper;
@@ -26,6 +27,7 @@ import android.view.Gravity;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
+import android.view.Window;
 import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -75,7 +77,7 @@ public class AttendanceActivity extends AppCompatActivity implements SurfaceHold
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        setTransparentStatusBar(true);
         calendar = Calendar.getInstance();
 
         setContentView(R.layout.activity_attendance);
@@ -189,6 +191,22 @@ public class AttendanceActivity extends AppCompatActivity implements SurfaceHold
                 rvm.attendance(bean);
                 break;
         }
+    }
+
+    /**
+     * 设置沉浸式状态栏
+     * @param isDark 是否设置为深色主题
+     */
+    protected void setTransparentStatusBar(boolean isDark) {
+        Window window = getWindow();
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        if (isDark)
+            window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                    | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);//全屏布局|深色状态(黑色字体)
+        else
+            window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        window.setStatusBarColor(Color.TRANSPARENT);//设置透明色
     }
 
 
