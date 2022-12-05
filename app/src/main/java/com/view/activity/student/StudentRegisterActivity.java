@@ -1,6 +1,7 @@
 package com.view.activity.student;
 
 import android.app.AlertDialog;
+import android.content.ContentUris;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
@@ -11,6 +12,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 import android.os.StrictMode;
+import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
@@ -201,25 +203,73 @@ public class StudentRegisterActivity extends BaseActivity {
     }
 
 
+    private void handleImage(Intent data) {
+        Uri uri = data.getData();
+        //从android4.4开始选择相册中的图片不再返回图片的真实Uri了，而是一个封装的Uri，所以要对其进行解析
+        if (DocumentsContract.isDocumentUri(this, uri)) {
+            //如果是document类型的Uri
+            String codeID = DocumentsContract.getDocumentId(uri);
+            if ("com.android.providers.media.documents".equals(uri.getAuthority())) {
+                //如果uri的authority(柄)是media格式的话，不得,进一步解析
+                String id = codeID.split(":")[1];//解析出数字格式的id
+                String selection = MediaStore.Images.Media._ID + "=" + id;
+                imagePath = getImagePath(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, selection);
+            } else if ("com.android.providers.downloads.documents".equals(uri.getAuthority())) {
+                Uri contentUri = ContentUris.withAppendedId(Uri.parse("content://downloads/public_downloads"), Long.valueOf(codeID));
+                imagePath = getImagePath(contentUri, null);
+            }
+        } else if ("content".equalsIgnoreCase(uri.getScheme())) {
+            //如果是content类型的uri用普通方法处理
+            imagePath = getImagePath(uri, null);
+        } else if ("file".equalsIgnoreCase(uri.getScheme())) {
+            //如果是文件类型的uri可以直接获取图片路径
+            imagePath = uri.getPath();
+        }
+    }
+
+    private String getImagePath(Uri uri, String selection) {
+        String path = null;
+        Cursor cursor = getContentResolver().query(uri, null, selection, null, null);
+        if (cursor != null) {
+            if (cursor.moveToFirst()) {
+                path = cursor.getString(cursor.getColumnIndexOrThrow("_data"));//MediaStore.Images.Media.DATA已弃用
+            }
+            cursor.close();
+        }
+        return path;
+    }
+
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         // 相册选择图片
         if (requestCode == Photo_ALBUM) {
-            if (data != null) {
-                Uri uri = data.getData();
-                Cursor cursor = getContentResolver().query(uri, null, null, null, null);
-                cursor.moveToNext();
-
-                //获得图片的绝对路径
-                imagePath = cursor.getString(cursor.getColumnIndex(MediaStore.Images.ImageColumns.DATA));
-                cursor.close();
-                Log.i("图片路径", imagePath);
+            if (resultCode == RESULT_OK) {
+                handleImage(data);//处理返回intent中的image 以得到相片的绝对路径imagePath
+                if (imagePath == null) {
+                    Toast.makeText(this, "获取图片失败\n请换一张试试", Toast.LENGTH_SHORT).show();
+                }
                 bp = getimage(imagePath);
                 runthreaad();
+            } else {
+                Toast.makeText(StudentRegisterActivity.this, "取消", Toast.LENGTH_SHORT).show();
             }
         } else if (requestCode == CAMERA) {
-            bp = getimage(imagePath);
-            runthreaad();
+
+            if (resultCode == RESULT_OK) {
+                //成功拍摄
+                bp = getimage(imagePath);
+                runthreaad();
+            } else {
+                //未拍摄则删除刚创建的文件
+                File pitrueFile = new File(imagePath);
+                if (pitrueFile.exists()) {
+                    pitrueFile.delete();
+                }
+                Toast.makeText(StudentRegisterActivity.this, "取消", Toast.LENGTH_SHORT).show();
+            }
+
+
+
         }
     }
 
