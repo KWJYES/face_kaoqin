@@ -5,6 +5,7 @@ import androidx.lifecycle.MutableLiveData;
 import com.response.retrofit_api.requstbody_bean.AttendanceBean;
 import com.response.retrofit_api.requstbody_bean.CheckCourseExistBean;
 import com.response.retrofit_api.requstbody_bean.CourseCreateBean;
+import com.response.retrofit_api.requstbody_bean.CourseID;
 import com.response.retrofit_api.requstbody_bean.InputAttendanceRecordBean;
 import com.response.retrofit_api.requstbody_bean.InquireAttendanceBean;
 import com.response.retrofit_api.resposebody_bean.InquireCourseBean;
@@ -95,4 +96,14 @@ public interface ITeacherNetworkRequest {
      * @param state
      */
     void teacherInquire_attendance(InquireAttendanceBean inquireAttendanceBean,MutableLiveData<List<TeacherInquireAttendanceBean.Message>> list,MutableLiveData<Boolean> state);
+
+
+    /**
+     * 删除课程
+     * @param courseID {
+     *   "course_id": 123456
+     * }
+     * @param state
+     */
+    void teacherDelete_course(CourseID courseID,MutableLiveData<Boolean> state);
 }

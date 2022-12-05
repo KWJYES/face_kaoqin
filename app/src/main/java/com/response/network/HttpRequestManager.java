@@ -96,7 +96,7 @@ public class HttpRequestManager implements IStudentNetworkRequest, ITeacherNetwo
                         if (code != 200) {
                             Toast.makeText(ApplicationConfig.getContext(), jsonObject.getString("message"), Toast.LENGTH_SHORT).show();
                             Log.d("HttpRequestManager", "attendanceRecord code=" + code);
-                            Log.d("HttpRequestManager", "body = " +bean.toString());
+                            Log.d("HttpRequestManager", "body = " + bean.toString());
                             Log.d("HttpRequestManager", jsonObject.toString());
                             return;
                         }
@@ -330,10 +330,10 @@ public class HttpRequestManager implements IStudentNetworkRequest, ITeacherNetwo
         teacherService.teacherInquire_attendance(inquireAttendanceBean).enqueue(new Callback<TeacherInquireAttendanceBean>() {
             @Override
             public void onResponse(Call<TeacherInquireAttendanceBean> call, Response<TeacherInquireAttendanceBean> response) {
-                TeacherInquireAttendanceBean bean=response.body();
-                if(bean==null||bean.getMessage()==null){
+                TeacherInquireAttendanceBean bean = response.body();
+                if (bean == null || bean.getMessage() == null) {
                     list.setValue(new ArrayList<>());
-                }else {
+                } else {
                     list.setValue(bean.getMessage());
                 }
                 state.setValue(true);
@@ -342,6 +342,39 @@ public class HttpRequestManager implements IStudentNetworkRequest, ITeacherNetwo
             @Override
             public void onFailure(Call<TeacherInquireAttendanceBean> call, Throwable t) {
                 state.setValue(false);
+            }
+        });
+    }
+
+    @Override
+    public void teacherDelete_course(CourseID courseID, MutableLiveData<Boolean> state) {
+        teacherService.teacherDelete_course(courseID).enqueue(new Callback<ResponseBody>() {
+            @Override
+            public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+                if (response.code() == 200) {
+                    try {
+                        assert response.body() != null;
+                        String json = response.body().string();
+                        JSONObject jsonObject = new JSONObject(json);
+                        int code = jsonObject.getInt("code");
+                        if (code != 200) {
+                            Toast.makeText(ApplicationConfig.getContext(), jsonObject.getString("message"), Toast.LENGTH_SHORT).show();
+                            Log.d("HttpRequestManager", "teacherDelete_course code=" + code);
+                            Log.d("HttpRequestManager", jsonObject.toString());
+                            return;
+                        }
+                    } catch (JSONException | IOException e) {
+                        e.printStackTrace();
+                    }
+                    Log.d("HttpRequestManager", "删除课程 成功");
+                    state.setValue(true);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<ResponseBody> call, Throwable t) {
+                state.setValue(false);
+                Log.d("HttpRequestManager", "请求失败");
             }
         });
     }
@@ -475,7 +508,7 @@ public class HttpRequestManager implements IStudentNetworkRequest, ITeacherNetwo
             @Override
             public void onResponse(Call<InquireCourseJoinBean> call, Response<InquireCourseJoinBean> response) {
                 InquireCourseJoinBean bean = response.body();
-                if(bean==null){
+                if (bean == null) {
                     state.setValue(false);
                     return;
                 }
@@ -500,7 +533,7 @@ public class HttpRequestManager implements IStudentNetworkRequest, ITeacherNetwo
             @Override
             public void onResponse(Call<JoinInCourseSucceed> call, Response<JoinInCourseSucceed> response) {
                 JoinInCourseSucceed bean = response.body();
-                if(bean==null){
+                if (bean == null) {
                     state.setValue(false);
                     return;
                 }
@@ -553,13 +586,13 @@ public class HttpRequestManager implements IStudentNetworkRequest, ITeacherNetwo
         studentService.inquireAttendance(body).enqueue(new Callback<InquireAttendanceBean>() {
             @Override
             public void onResponse(Call<InquireAttendanceBean> call, Response<InquireAttendanceBean> response) {
-                InquireAttendanceBean inquireAttendanceBean=response.body();
-                if(inquireAttendanceBean==null){
+                InquireAttendanceBean inquireAttendanceBean = response.body();
+                if (inquireAttendanceBean == null) {
                     recordList.setValue(new ArrayList<>());
                     state.setValue(true);
                     return;
                 }
-                recordList.setValue((inquireAttendanceBean.getMessage()==null)?(new ArrayList<>()):inquireAttendanceBean.getMessage());
+                recordList.setValue((inquireAttendanceBean.getMessage() == null) ? (new ArrayList<>()) : inquireAttendanceBean.getMessage());
                 state.setValue(true);
             }
 

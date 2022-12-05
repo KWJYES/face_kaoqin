@@ -3,6 +3,7 @@ package com.response.retrofit_api;
 import com.response.retrofit_api.requstbody_bean.AttendanceBean;
 import com.response.retrofit_api.requstbody_bean.CheckCourseExistBean;
 import com.response.retrofit_api.requstbody_bean.CourseCreateBean;
+import com.response.retrofit_api.requstbody_bean.CourseID;
 import com.response.retrofit_api.requstbody_bean.InputAttendanceRecordBean;
 import com.response.retrofit_api.requstbody_bean.InquireAttendanceBean;
 import com.response.retrofit_api.resposebody_bean.InquireCourseBean;
@@ -106,4 +107,14 @@ public interface ITeacherService {
      */
     @POST("/teacher/inquire_attendance")
     Call<TeacherInquireAttendanceBean> teacherInquire_attendance(@Body InquireAttendanceBean body);
+
+    /**
+     * 删除课程
+     * @param body {
+     *   "course_id": 123456
+     * }
+     * @return
+     */
+    @POST("/teacher/delete_course")
+    Call<ResponseBody> teacherDelete_course(@Body CourseID body);
 }

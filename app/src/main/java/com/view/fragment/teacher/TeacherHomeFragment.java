@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.adapter.teacher.CourseAdapter;
 import com.base.BaseFragment;
+import com.entity.EventBusMessage;
 import com.response.retrofit_api.resposebody_bean.InquireCourseBean;
 import com.tencent.ncnnyoloface.R;
 import com.tencent.ncnnyoloface.databinding.FragmentHome2Binding;
@@ -22,6 +23,10 @@ import com.view.activity.teacher.TeacherCourseActivity;
 import com.view.dialog.teacher.CreateCourseDialog;
 import com.viewmodel.rvm.fragment.teacher.TeacherHomeRVM;
 import com.viewmodel.svm.fragment.teacher.TeacherHomeSVM;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 import java.util.List;
 import java.util.Objects;
@@ -43,6 +48,7 @@ public class TeacherHomeFragment extends BaseFragment {
         binding.setSvm(svm);
         binding.setClick(new ClickClass());
         binding.setLifecycleOwner(this);
+        EventBus.getDefault().register(this);//注册监听
         return binding.getRoot();
     }
 
@@ -95,6 +101,20 @@ public class TeacherHomeFragment extends BaseFragment {
         svm.userName.setValue(ApplicationConfig.userName);
     }
 
+    /**
+     * 接收EventBus数据
+     *
+     * @param message 传递来的消息
+     */
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEvent(EventBusMessage message){
+        switch (message.msg){
+            case ApplicationConfig.DELETE_COURSE:
+                rvm.inquireCourse();
+                break;
+        }
+    }
+
     public class ClickClass {
         /**
          * 创建一个新的课号
@@ -114,5 +134,11 @@ public class TeacherHomeFragment extends BaseFragment {
         public void refresh(View view) {
             rvm.inquireCourse();
         }
+    }
+
+    @Override
+    public void onDestroy() {
+        EventBus.getDefault().unregister(this);
+        super.onDestroy();
     }
 }
