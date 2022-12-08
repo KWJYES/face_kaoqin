@@ -384,21 +384,21 @@ public class HttpRequestManager implements IStudentNetworkRequest, ITeacherNetwo
         studentService.register(email, captcha, username, student_id, password, password_confirm).enqueue(new Callback<ResponseBody>() {
             @Override
             public void onResponse(Call<ResponseBody> call, @NonNull Response<ResponseBody> response) {
-                if (response.code() == 200) {
-                    try {
-                        assert response.body() != null;
-                        String json = response.body().string();
-                        JSONObject jsonObject = new JSONObject(json);
-                        int code = jsonObject.getInt("code");
-                        if (code != 200) {
-                            Toast.makeText(ApplicationConfig.getContext(), jsonObject.getString("message"), Toast.LENGTH_SHORT).show();
-                            Log.d("HttpRequestManager", "Register code=" + code);
-                            Log.d("HttpRequestManager", jsonObject.toString());
-                            return;
-                        }
-                    } catch (JSONException | IOException e) {
-                        e.printStackTrace();
+                try {
+                    assert response.body() != null;
+                    String json = response.body().string();
+                    JSONObject jsonObject = new JSONObject(json);
+                    int code = jsonObject.getInt("code");
+                    if (code != 200) {
+                        Toast.makeText(ApplicationConfig.getContext(), jsonObject.getString("message"), Toast.LENGTH_SHORT).show();
+                        Log.d("HttpRequestManager", "Register code=" + code);
+                        Log.d("HttpRequestManager", jsonObject.toString());
+                        return;
                     }
+                } catch (AssertionError|JSONException | IOException e) {
+                    e.printStackTrace();
+                }
+                if (response.code() == 200) {
                     state.setValue(true);
                 } else {
                     Log.d("HttpRequestManager", "response.code()=" + response.code());

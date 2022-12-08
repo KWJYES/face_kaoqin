@@ -68,8 +68,7 @@
         <activity android:name=".RegisterActivity" />
         <activity
             android:name=".AttendanceActivity"
-            android:label="无感知人脸考勤"
-            android:screenOrientation="fullSensor" />
+            android:label="无感知人脸考勤" />
     </application>
 
 </manifest>

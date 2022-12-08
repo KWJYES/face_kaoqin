@@ -53,6 +53,7 @@ public class FaceSearch {
                 while (Error_code != 0){
                     result = HttpUtil.post(url, token, "application/json", param);
                     Result_bean=gson.fromJson(result,Search_result.class);
+                    Log.i("2236","---Error_code != 0--- Result_bean："+ Result_bean.toString());
                     Error_code=Result_bean.getError_code();
                     if(Error_code == 0)
                     {
@@ -66,6 +67,7 @@ public class FaceSearch {
                     Log.i("2236","分数为："+ score + " 识别为：" + user);
                     if(score >= 75.0){
                         if(!list.isEmpty() & list.contains(user)) {
+                            Log.i("2236","list.size()："+ list.size() + " list.contains(user)：" + list.contains(user));
                             return "no";
                         }
                         else {
