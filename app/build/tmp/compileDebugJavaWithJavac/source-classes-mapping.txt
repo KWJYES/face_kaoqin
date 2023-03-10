@@ -1,6 +1,5 @@
-com/view/activity/StartActivity.java
- com.view.activity.StartActivity
- com.view.activity.StartActivity$CLickClass
+com/baidu/ai/aip/utils/ThreadReturn.java
+ com.baidu.ai.aip.utils.ThreadReturn
 com/viewmodel/rvm/activity/student/StudentCourseRVM.java
  com.viewmodel.rvm.activity.student.StudentCourseRVM
 com/adapter/teacher/CourseInquireAttendanceAdapter.java
@@ -52,8 +51,9 @@ com/tencent/ncnnyoloface/RegisterActivity.java
  com.tencent.ncnnyoloface.RegisterActivity$1
 com/viewmodel/svm/activity/teacher/TeacherCourseSVM.java
  com.viewmodel.svm.activity.teacher.TeacherCourseSVM
-com/tencent/ncnnyoloface/databinding/ActivityStartBinding.java
- com.tencent.ncnnyoloface.databinding.ActivityStartBinding
+com/view/fragment/teacher/TeacherMineFragment.java
+ com.view.fragment.teacher.TeacherMineFragment
+ com.view.fragment.teacher.TeacherMineFragment$ClickClass
 com/response/retrofit_api/resposebody_bean/JoinInCourseSucceed.java
  com.response.retrofit_api.resposebody_bean.JoinInCourseSucceed
 com/base/BaseActivity.java
@@ -164,9 +164,8 @@ com/view/activity/teacher/TeacherMainActivity.java
 com/view/dialog/teacher/StartAttendanceDialog.java
  com.view.dialog.teacher.StartAttendanceDialog
  com.view.dialog.teacher.StartAttendanceDialog$ClickClass
-com/view/activity/student/StudentLoginActivity.java
- com.view.activity.student.StudentLoginActivity
- com.view.activity.student.StudentLoginActivity$ClickClass
+com/viewmodel/rvm/activity/student/StudentAttendanceRecordRVM.java
+ com.viewmodel.rvm.activity.student.StudentAttendanceRecordRVM
 com/view/activity/teacher/AttendanceInquiryActivity.java
  com.view.activity.teacher.AttendanceInquiryActivity
  com.view.activity.teacher.AttendanceInquiryActivity$ClickClass
@@ -252,6 +251,7 @@ com/response/network/HttpRequestManager.java
  com.response.network.HttpRequestManager$13
  com.response.network.HttpRequestManager$14
  com.response.network.HttpRequestManager$15
+ com.response.network.HttpRequestManager$16
  com.response.network.HttpRequestManager$2
  com.response.network.HttpRequestManager$3
  com.response.network.HttpRequestManager$4
@@ -264,9 +264,8 @@ com/baidu/ai/aip/utils/add_result_bean.java
  com.baidu.ai.aip.utils.add_result_bean
  com.baidu.ai.aip.utils.add_result_bean$ResultBean
  com.baidu.ai.aip.utils.add_result_bean$ResultBean$LocationBean
-com/view/activity/teacher/TeacherLoginActivity.java
- com.view.activity.teacher.TeacherLoginActivity
- com.view.activity.teacher.TeacherLoginActivity$ClickClass
+com/tencent/ncnnyoloface/databinding/ActivityTeacherMainBinding.java
+ com.tencent.ncnnyoloface.databinding.ActivityTeacherMainBinding
 com/tencent/ncnnyoloface/BuildConfig.java
  com.tencent.ncnnyoloface.BuildConfig
 com/tencent/ncnnyoloface/databinding/ActivityTeacherRegisterBinding.java
@@ -298,6 +297,7 @@ com/baidu/ai/aip/utils/FaceSearch.java
 com/view/activity/teacher/TeacherCourseActivity.java
  com.view.activity.teacher.TeacherCourseActivity
  com.view.activity.teacher.TeacherCourseActivity$1
+ com.view.activity.teacher.TeacherCourseActivity$2
  com.view.activity.teacher.TeacherCourseActivity$ClickClass
  com.view.activity.teacher.TeacherCourseActivity$ClickClass$1
 com/adapter/teacher/InquireAttendanceAdapter.java
@@ -329,12 +329,16 @@ com/response/retrofit_api/IStudentService.java
  com.response.retrofit_api.IStudentService
 com/response/retrofit_api/IPublicService.java
  com.response.retrofit_api.IPublicService
-com/tencent/ncnnyoloface/databinding/ActivityTeacherMainBinding.java
- com.tencent.ncnnyoloface.databinding.ActivityTeacherMainBinding
-com/viewmodel/rvm/activity/student/StudentAttendanceRecordRVM.java
- com.viewmodel.rvm.activity.student.StudentAttendanceRecordRVM
-com/view/fragment/teacher/TeacherMineFragment.java
- com.view.fragment.teacher.TeacherMineFragment
- com.view.fragment.teacher.TeacherMineFragment$ClickClass
-com/baidu/ai/aip/utils/ThreadReturn.java
- com.baidu.ai.aip.utils.ThreadReturn
+com/view/activity/StartActivity.java
+ com.view.activity.StartActivity
+ com.view.activity.StartActivity$CLickClass
+com/tencent/ncnnyoloface/databinding/ActivityStartBinding.java
+ com.tencent.ncnnyoloface.databinding.ActivityStartBinding
+com/utils/PermissionUtil.java
+ com.utils.PermissionUtil
+com/view/activity/student/StudentLoginActivity.java
+ com.view.activity.student.StudentLoginActivity
+ com.view.activity.student.StudentLoginActivity$ClickClass
+com/view/activity/teacher/TeacherLoginActivity.java
+ com.view.activity.teacher.TeacherLoginActivity
+ com.view.activity.teacher.TeacherLoginActivity$ClickClass

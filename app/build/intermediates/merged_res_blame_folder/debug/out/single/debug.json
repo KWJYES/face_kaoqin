@@ -52,12 +52,12 @@
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\drawable\\ic_r.xml"
     },
     {
-        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_attendance.xml.flat",
-        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_attendance.xml"
-    },
-    {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_student_course.xml.flat",
         "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_student_course.xml"
+    },
+    {
+        "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_attendance.xml.flat",
+        "source": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\src\\main\\res\\layout\\activity_attendance.xml"
     },
     {
         "merged": "J:\\AndroidStudioProgects\\face_kaoqing\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_student_register.xml.flat",

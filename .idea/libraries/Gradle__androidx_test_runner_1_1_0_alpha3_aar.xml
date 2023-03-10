@@ -2,7 +2,6 @@
   <library name="Gradle: androidx.test:runner:1.1.0-alpha3@aar">
     <CLASSES>
       <root url="jar://D:/.gradle/caches/transforms-3/218ba2ead7bdb19cd6efa74ea94763f0/transformed/runner-1.1.0-alpha3/jars/classes.jar!/" />
-      <root url="file://D:/.gradle/caches/transforms-3/218ba2ead7bdb19cd6efa74ea94763f0/transformed/runner-1.1.0-alpha3/res" />
       <root url="file://D:/.gradle/caches/transforms-3/218ba2ead7bdb19cd6efa74ea94763f0/transformed/runner-1.1.0-alpha3/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>

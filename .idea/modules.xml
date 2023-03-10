@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/face_kaoqing.iml" filepath="$PROJECT_DIR$/.idea/modules/face_kaoqing.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/face_kaoqing.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/face_kaoqing.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/face_kaoqing.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/face_kaoqing.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/face_kaoqing.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/face_kaoqing.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/face_kaoqing.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/face_kaoqing.app.unitTest.iml" />
     </modules>
   </component>
 </project>

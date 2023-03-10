@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tencent.ncnnyoloface"
     android:versionCode="1"
-    android:versionName="1.1" >
+    android:versionName="1.1">
 
     <uses-feature android:name="android.hardware.camera" /> <!-- 相机权限 -->
     <!-- 写入SD卡的权限：如果你希望保存相机拍照后的照片 -->
@@ -16,12 +16,13 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name="com.utils.ApplicationConfig"
         android:allowBackup="true"
         android:label="大创APP"
-        android:name="com.utils.ApplicationConfig"
+        android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-        android:usesCleartextTraffic="true" >
+        android:usesCleartextTraffic="true">
         <activity
             android:name="com.view.activity.teacher.AttendanceInquiryActivity"
             android:exported="false" />
@@ -55,7 +56,7 @@
             android:exported="false" />
         <activity
             android:name="com.view.activity.StartActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

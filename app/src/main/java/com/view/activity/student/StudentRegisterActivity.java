@@ -306,6 +306,7 @@ public class StudentRegisterActivity extends BaseActivity {
         //设置缩放比例
         newOpts.inSampleSize = be;
 
+        Log.d("image","srcPath = "+srcPath);
         //重新读入图片，注意此时已经把options.inJustDecodeBounds 设回false了
         bitmap = BitmapFactory.decodeFile(srcPath, newOpts);
 
@@ -316,7 +317,7 @@ public class StudentRegisterActivity extends BaseActivity {
     //质量压缩
     private Bitmap compressImage(Bitmap image) {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
-
+        if (image==null)Log.e("image","Bitmap image 为空");
         //质量压缩方法，这里100表示不压缩，把压缩后的数据存放到baos中
         image.compress(Bitmap.CompressFormat.JPEG, 100, baos);
         int options = 100;

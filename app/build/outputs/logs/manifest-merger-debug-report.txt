@@ -7,11 +7,11 @@ INJECTED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest
 MERGED from [androidx.databinding:databinding-adapters:7.0.3] D:\.gradle\caches\transforms-3\804f5cef2c8055f0399a1981ab0eea6e\transformed\databinding-adapters-7.0.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-runtime:7.0.3] D:\.gradle\caches\transforms-3\0c04245b2da26fe59610149e702f545f\transformed\databinding-runtime-7.0.3\AndroidManifest.xml:17:1-22:12
 MERGED from [org.greenrobot:eventbus:3.3.1] D:\.gradle\caches\transforms-3\e4b1de3e757289da06185a5f8e04f353\transformed\jetified-eventbus-3.3.1\AndroidManifest.xml:2:1-9:12
-MERGED from [io.github.scwang90:refresh-layout-kernel:2.0.5] D:\.gradle\caches\transforms-3\302057562b772f61a9efb46a1ba3bfe9\transformed\jetified-refresh-layout-kernel-2.0.5\AndroidManifest.xml:2:1-11:12
-MERGED from [io.github.scwang90:refresh-header-material:2.0.5] D:\.gradle\caches\transforms-3\afce92564e58a514c6ad72b15b662bec\transformed\jetified-refresh-header-material-2.0.5\AndroidManifest.xml:2:1-11:12
-MERGED from [io.github.scwang90:refresh-header-classics:2.0.5] D:\.gradle\caches\transforms-3\1fc9dd262af0de523e36622668a595ac\transformed\jetified-refresh-header-classics-2.0.5\AndroidManifest.xml:2:1-11:12
-MERGED from [io.github.scwang90:refresh-footer-classics:2.0.5] D:\.gradle\caches\transforms-3\e364131030c0ea5d9fc7432e2499c02c\transformed\jetified-refresh-footer-classics-2.0.5\AndroidManifest.xml:2:1-11:12
-MERGED from [io.github.scwang90:refresh-footer-ball:2.0.5] D:\.gradle\caches\transforms-3\09a55c065ffe934c522c7fc810f0e76a\transformed\jetified-refresh-footer-ball-2.0.5\AndroidManifest.xml:2:1-11:12
+MERGED from [io.github.scwang90:refresh-layout-kernel:2.0.5] D:\.gradle\caches\transforms-3\2dff9896aad04c9717d59652ccc11893\transformed\jetified-refresh-layout-kernel-2.0.5\AndroidManifest.xml:2:1-11:12
+MERGED from [io.github.scwang90:refresh-header-material:2.0.5] D:\.gradle\caches\transforms-3\04709fecf637f526f43839253a6ddc3b\transformed\jetified-refresh-header-material-2.0.5\AndroidManifest.xml:2:1-11:12
+MERGED from [io.github.scwang90:refresh-header-classics:2.0.5] D:\.gradle\caches\transforms-3\4b9df01274d36889ca6b8ed065e74fb5\transformed\jetified-refresh-header-classics-2.0.5\AndroidManifest.xml:2:1-11:12
+MERGED from [io.github.scwang90:refresh-footer-classics:2.0.5] D:\.gradle\caches\transforms-3\2c29ae9e8ca5a01838b43a38f1a4a5a1\transformed\jetified-refresh-footer-classics-2.0.5\AndroidManifest.xml:2:1-11:12
+MERGED from [io.github.scwang90:refresh-footer-ball:2.0.5] D:\.gradle\caches\transforms-3\c2b0f6b7e4cff931b7e1a773da63df90\transformed\jetified-refresh-footer-ball-2.0.5\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.3.0] D:\.gradle\caches\transforms-3\fc0e4e87d95d67f047ecdbed3a04c4cc\transformed\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] D:\.gradle\caches\transforms-3\d3dc1b04020dde5349a563828b949efc\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] D:\.gradle\caches\transforms-3\d76f35a08c08216004feed386d7db8d0\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -41,7 +41,7 @@ MERGED from [androidx.core:core:1.3.2] D:\.gradle\caches\transforms-3\eaa3f5267f
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] D:\.gradle\caches\transforms-3\75cb0929a6f85c2da435fad4c201e57a\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.databinding:viewbinding:7.0.3] D:\.gradle\caches\transforms-3\aedac3ef7d5f2c617ead8656bf92c449\transformed\jetified-viewbinding-7.0.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] D:\.gradle\caches\transforms-3\02660f3bb5ba5d35d36b84f966b5477a\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [io.github.scwang90:refresh-drawable-paint:2.0.5] D:\.gradle\caches\transforms-3\ba05236a10758de028fa92918f173dc3\transformed\jetified-refresh-drawable-paint-2.0.5\AndroidManifest.xml:2:1-11:12
+MERGED from [io.github.scwang90:refresh-drawable-paint:2.0.5] D:\.gradle\caches\transforms-3\6fb24f70e601924c8b10c5a32ba34cc6\transformed\jetified-refresh-drawable-paint-2.0.5\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\.gradle\caches\transforms-3\58c33f79541fa64793747c2f03ce017d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] D:\.gradle\caches\transforms-3\1bc1de6a32330280351f65a0393bdf57\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] D:\.gradle\caches\transforms-3\fb3449e72dc29f308cc217ab7482dbfb\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -109,141 +109,142 @@ MERGED from [androidx.core:core:1.3.2] D:\.gradle\caches\transforms-3\eaa3f5267f
 MERGED from [androidx.core:core:1.3.2] D:\.gradle\caches\transforms-3\eaa3f5267f86ccd9d2fc448ced2fb27d\transformed\core-1.3.2\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] D:\.gradle\caches\transforms-3\75cb0929a6f85c2da435fad4c201e57a\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] D:\.gradle\caches\transforms-3\75cb0929a6f85c2da435fad4c201e57a\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:22:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] D:\.gradle\caches\transforms-3\eaa3f5267f86ccd9d2fc448ced2fb27d\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:22:9-35
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:23:9-35
 	android:label
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:20:9-30
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:21:9-30
 	android:allowBackup
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:20:9-35
 	android:theme
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:23:9-65
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:24:9-65
 	android:usesCleartextTraffic
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:24:9-44
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:25:9-44
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:21:9-51
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:19:9-51
 activity#com.view.activity.teacher.AttendanceInquiryActivity
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:25:9-27:40
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:27:13-37
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:26:13-79
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:27:13-79
 activity#com.view.activity.student.StudentAttendanceRecordActivity
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:28:9-30:40
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:29:13-85
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:30:13-85
 activity#com.view.activity.student.StudentCourseActivity
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:31:9-33:40
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:33:13-37
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:32:13-75
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:33:13-75
 activity#com.view.activity.teacher.TeacherCourseActivity
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:34:9-36:40
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:35:13-75
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:36:13-75
 activity#com.view.activity.student.StudentMainActivity
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:37:9-39:40
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:39:13-37
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:38:13-73
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:39:13-73
 activity#com.view.activity.teacher.TeacherMainActivity
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:40:9-43:47
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:41:9-44:47
 	android:launchMode
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:43:13-44
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:44:13-44
 	android:exported
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:42:13-36
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:41:13-73
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:42:13-73
 activity#com.view.activity.teacher.TeacherLoginActivity
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:44:9-46:40
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:45:9-47:40
 	android:exported
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:46:13-37
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:45:13-74
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:46:13-74
 activity#com.view.activity.teacher.TeacherRegisterActivity
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:47:9-49:40
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:48:9-50:40
 	android:exported
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:49:13-37
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:50:13-37
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:48:13-77
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:49:13-77
 activity#com.view.activity.student.StudentRegisterActivity
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:50:9-52:40
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:51:9-53:40
 	android:exported
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:52:13-37
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:53:13-37
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:51:13-77
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:52:13-77
 activity#com.view.activity.student.StudentLoginActivity
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:53:9-55:40
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:54:9-56:40
 	android:exported
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:55:13-37
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:56:13-37
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:54:13-74
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:55:13-74
 activity#com.view.activity.StartActivity
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:56:9-64:20
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:57:9-65:20
 	android:exported
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:58:13-36
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:59:13-36
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:57:13-59
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:58:13-59
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:59:13-63:29
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:60:13-64:29
 action#android.intent.action.MAIN
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:60:17-69
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:61:17-69
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:60:25-66
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:61:25-66
 category#android.intent.category.LAUNCHER
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:62:17-77
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:63:17-77
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:62:27-74
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:63:27-74
 activity#com.tencent.ncnnyoloface.SelectActivity
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:65:9-52
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:66:9-52
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:65:19-49
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:66:19-49
 activity#com.tencent.ncnnyoloface.DeleteInfoActivity
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:66:9-56
-	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:66:19-53
-activity#com.tencent.ncnnyoloface.SearchDataActivity
 ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:67:9-56
 	android:name
 		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:67:19-53
+activity#com.tencent.ncnnyoloface.SearchDataActivity
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:68:9-56
+	android:name
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:68:19-53
 activity#com.tencent.ncnnyoloface.RegisterActivity
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:68:9-54
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:69:9-54
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:68:19-51
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:69:19-51
 activity#com.tencent.ncnnyoloface.AttendanceActivity
-ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:69:9-72:54
-	android:screenOrientation
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:72:13-51
+ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:70:9-72:39
 	android:label
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:71:13-36
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:72:13-36
 	android:name
-		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:70:13-47
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml:71:13-47
 uses-sdk
 INJECTED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml
+INJECTED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:databinding-adapters:7.0.3] D:\.gradle\caches\transforms-3\804f5cef2c8055f0399a1981ab0eea6e\transformed\databinding-adapters-7.0.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:databinding-adapters:7.0.3] D:\.gradle\caches\transforms-3\804f5cef2c8055f0399a1981ab0eea6e\transformed\databinding-adapters-7.0.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:databinding-runtime:7.0.3] D:\.gradle\caches\transforms-3\0c04245b2da26fe59610149e702f545f\transformed\databinding-runtime-7.0.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:databinding-runtime:7.0.3] D:\.gradle\caches\transforms-3\0c04245b2da26fe59610149e702f545f\transformed\databinding-runtime-7.0.3\AndroidManifest.xml:20:5-44
 MERGED from [org.greenrobot:eventbus:3.3.1] D:\.gradle\caches\transforms-3\e4b1de3e757289da06185a5f8e04f353\transformed\jetified-eventbus-3.3.1\AndroidManifest.xml:5:5-7:41
 MERGED from [org.greenrobot:eventbus:3.3.1] D:\.gradle\caches\transforms-3\e4b1de3e757289da06185a5f8e04f353\transformed\jetified-eventbus-3.3.1\AndroidManifest.xml:5:5-7:41
-MERGED from [io.github.scwang90:refresh-layout-kernel:2.0.5] D:\.gradle\caches\transforms-3\302057562b772f61a9efb46a1ba3bfe9\transformed\jetified-refresh-layout-kernel-2.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [io.github.scwang90:refresh-layout-kernel:2.0.5] D:\.gradle\caches\transforms-3\302057562b772f61a9efb46a1ba3bfe9\transformed\jetified-refresh-layout-kernel-2.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [io.github.scwang90:refresh-header-material:2.0.5] D:\.gradle\caches\transforms-3\afce92564e58a514c6ad72b15b662bec\transformed\jetified-refresh-header-material-2.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [io.github.scwang90:refresh-header-material:2.0.5] D:\.gradle\caches\transforms-3\afce92564e58a514c6ad72b15b662bec\transformed\jetified-refresh-header-material-2.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [io.github.scwang90:refresh-header-classics:2.0.5] D:\.gradle\caches\transforms-3\1fc9dd262af0de523e36622668a595ac\transformed\jetified-refresh-header-classics-2.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [io.github.scwang90:refresh-header-classics:2.0.5] D:\.gradle\caches\transforms-3\1fc9dd262af0de523e36622668a595ac\transformed\jetified-refresh-header-classics-2.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [io.github.scwang90:refresh-footer-classics:2.0.5] D:\.gradle\caches\transforms-3\e364131030c0ea5d9fc7432e2499c02c\transformed\jetified-refresh-footer-classics-2.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [io.github.scwang90:refresh-footer-classics:2.0.5] D:\.gradle\caches\transforms-3\e364131030c0ea5d9fc7432e2499c02c\transformed\jetified-refresh-footer-classics-2.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [io.github.scwang90:refresh-footer-ball:2.0.5] D:\.gradle\caches\transforms-3\09a55c065ffe934c522c7fc810f0e76a\transformed\jetified-refresh-footer-ball-2.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [io.github.scwang90:refresh-footer-ball:2.0.5] D:\.gradle\caches\transforms-3\09a55c065ffe934c522c7fc810f0e76a\transformed\jetified-refresh-footer-ball-2.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.scwang90:refresh-layout-kernel:2.0.5] D:\.gradle\caches\transforms-3\2dff9896aad04c9717d59652ccc11893\transformed\jetified-refresh-layout-kernel-2.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.scwang90:refresh-layout-kernel:2.0.5] D:\.gradle\caches\transforms-3\2dff9896aad04c9717d59652ccc11893\transformed\jetified-refresh-layout-kernel-2.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.scwang90:refresh-header-material:2.0.5] D:\.gradle\caches\transforms-3\04709fecf637f526f43839253a6ddc3b\transformed\jetified-refresh-header-material-2.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.scwang90:refresh-header-material:2.0.5] D:\.gradle\caches\transforms-3\04709fecf637f526f43839253a6ddc3b\transformed\jetified-refresh-header-material-2.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.scwang90:refresh-header-classics:2.0.5] D:\.gradle\caches\transforms-3\4b9df01274d36889ca6b8ed065e74fb5\transformed\jetified-refresh-header-classics-2.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.scwang90:refresh-header-classics:2.0.5] D:\.gradle\caches\transforms-3\4b9df01274d36889ca6b8ed065e74fb5\transformed\jetified-refresh-header-classics-2.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.scwang90:refresh-footer-classics:2.0.5] D:\.gradle\caches\transforms-3\2c29ae9e8ca5a01838b43a38f1a4a5a1\transformed\jetified-refresh-footer-classics-2.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.scwang90:refresh-footer-classics:2.0.5] D:\.gradle\caches\transforms-3\2c29ae9e8ca5a01838b43a38f1a4a5a1\transformed\jetified-refresh-footer-classics-2.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.scwang90:refresh-footer-ball:2.0.5] D:\.gradle\caches\transforms-3\c2b0f6b7e4cff931b7e1a773da63df90\transformed\jetified-refresh-footer-ball-2.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.scwang90:refresh-footer-ball:2.0.5] D:\.gradle\caches\transforms-3\c2b0f6b7e4cff931b7e1a773da63df90\transformed\jetified-refresh-footer-ball-2.0.5\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.3.0] D:\.gradle\caches\transforms-3\fc0e4e87d95d67f047ecdbed3a04c4cc\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.3.0] D:\.gradle\caches\transforms-3\fc0e4e87d95d67f047ecdbed3a04c4cc\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] D:\.gradle\caches\transforms-3\d3dc1b04020dde5349a563828b949efc\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
@@ -302,8 +303,8 @@ MERGED from [androidx.databinding:viewbinding:7.0.3] D:\.gradle\caches\transform
 MERGED from [androidx.databinding:viewbinding:7.0.3] D:\.gradle\caches\transforms-3\aedac3ef7d5f2c617ead8656bf92c449\transformed\jetified-viewbinding-7.0.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] D:\.gradle\caches\transforms-3\02660f3bb5ba5d35d36b84f966b5477a\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] D:\.gradle\caches\transforms-3\02660f3bb5ba5d35d36b84f966b5477a\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [io.github.scwang90:refresh-drawable-paint:2.0.5] D:\.gradle\caches\transforms-3\ba05236a10758de028fa92918f173dc3\transformed\jetified-refresh-drawable-paint-2.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [io.github.scwang90:refresh-drawable-paint:2.0.5] D:\.gradle\caches\transforms-3\ba05236a10758de028fa92918f173dc3\transformed\jetified-refresh-drawable-paint-2.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.scwang90:refresh-drawable-paint:2.0.5] D:\.gradle\caches\transforms-3\6fb24f70e601924c8b10c5a32ba34cc6\transformed\jetified-refresh-drawable-paint-2.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.scwang90:refresh-drawable-paint:2.0.5] D:\.gradle\caches\transforms-3\6fb24f70e601924c8b10c5a32ba34cc6\transformed\jetified-refresh-drawable-paint-2.0.5\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\.gradle\caches\transforms-3\58c33f79541fa64793747c2f03ce017d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\.gradle\caches\transforms-3\58c33f79541fa64793747c2f03ce017d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] D:\.gradle\caches\transforms-3\1bc1de6a32330280351f65a0393bdf57\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
@@ -329,8 +330,11 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] D:\.gradle\caches\tra
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] D:\.gradle\caches\transforms-3\dad45be7fb3d40cd3f820bd1d6623c5b\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] D:\.gradle\caches\transforms-3\dad45be7fb3d40cd3f820bd1d6623c5b\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 INJECTED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml
+INJECTED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		ADDED from [org.greenrobot:eventbus:3.3.1] D:\.gradle\caches\transforms-3\e4b1de3e757289da06185a5f8e04f353\transformed\jetified-eventbus-3.3.1\AndroidManifest.xml:7:9-38
+		INJECTED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml
+		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml
+		INJECTED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml
 		ADDED from J:\AndroidStudioProgects\face_kaoqing\app\src\main\AndroidManifest.xml

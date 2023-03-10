@@ -33,7 +33,7 @@
         <LinearLayout
             android:padding="5dp"
             android:background="@drawable/bg_ll"
-            android:layout_marginTop="220dp"
+            android:layout_marginTop="150dp"
             android:id="@+id/linearLayout0"
             android:layout_width="250dp"
             android:layout_height="wrap_content"

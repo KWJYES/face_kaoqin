@@ -2,7 +2,6 @@
   <library name="Gradle: androidx.test:monitor:1.1.0-alpha3@aar">
     <CLASSES>
       <root url="jar://D:/.gradle/caches/transforms-3/e9847af966b3e3388d98de8b5366ceb7/transformed/monitor-1.1.0-alpha3/jars/classes.jar!/" />
-      <root url="file://D:/.gradle/caches/transforms-3/e9847af966b3e3388d98de8b5366ceb7/transformed/monitor-1.1.0-alpha3/res" />
       <root url="file://D:/.gradle/caches/transforms-3/e9847af966b3e3388d98de8b5366ceb7/transformed/monitor-1.1.0-alpha3/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>

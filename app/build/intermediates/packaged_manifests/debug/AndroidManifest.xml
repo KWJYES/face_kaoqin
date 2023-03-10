@@ -2,11 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tencent.ncnnyoloface"
     android:versionCode="1"
-    android:versionName="1.1" >
+    android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="28"
-        android:targetSdkVersion="30" />
+        android:minSdkVersion="26"
+        android:targetSdkVersion="32" />
 
     <uses-feature android:name="android.hardware.camera" /> <!-- 相机权限 -->
     <!-- 写入SD卡的权限：如果你希望保存相机拍照后的照片 -->
@@ -26,6 +26,7 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:label="大创APP"
+        android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
@@ -76,8 +77,7 @@
         <activity android:name="com.tencent.ncnnyoloface.RegisterActivity" />
         <activity
             android:name="com.tencent.ncnnyoloface.AttendanceActivity"
-            android:label="无感知人脸考勤"
-            android:screenOrientation="fullSensor" />
+            android:label="无感知人脸考勤" />
     </application>
 
 </manifest>
